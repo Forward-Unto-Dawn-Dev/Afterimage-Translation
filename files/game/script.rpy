@@ -62,7 +62,7 @@ label start:
 
         try: renpy.file(config.basedir + "/characters/%s.chr" % player),
 
-        except: open(config.basedir + "/characters/{}.chr".format(player), "w").write(renpy.file("mod_assets/player1.chr").read()),
+        except: open(config.basedir + "/characters/{}.chr".format(player), "w").write(renpy.file("mod_assets/player1.chr", encoding='utf-8').read()),
 
 
     $ chapter = 0

@@ -46,7 +46,7 @@ init python:
                 x = line.split(',')
                 full_wordlist.append(PoemWord(x[0], float(x[1]), float(x[2]), float(x[3])))
     else:
-        with renpy.file("poemwords.txt") as wordfile:
+        with renpy.file("poemwords.txt", encoding='utf-8') as wordfile:
             for line in wordfile:
                 
                 line = line.strip()

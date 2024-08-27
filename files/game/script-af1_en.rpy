@@ -64,58 +64,58 @@ label af1_main:
     play ambient int_night volume 0.8 fadein 3.0
     "Я скучал за столом, поигрывая ручкой."
     "Мой мозг просто не перестаёт прокручивать всё это, картинки падают на стол и разбиваются вдребезги, прежде чем я успеваю их как следует рассмотреть."
-    "Я смотрю на свою книжную полку в неприглядном углу, она всё ещё лежит там."
-    "Pulling it out, dust begins to wake."
+    "Я смотрю на свою книжную полку в неприглядном углу. Она всё ещё лежит там."
+    "Когда я вытащил её, с неё посыпалась пыль."
     play sound page_turn
-    "I gently turn the pages over, along with the inferior lines, then I pick up the creased paper, unfold it, and hold it on my palms."
-    "I sigh to myself."
-    "With the air leaving my mouth, the once floated dusts now start to become more visible under my table lamp."
-    "The most familiar handwriting in my life lies there faintly, unable to breathe even once. I try to fold it back, yet my body remains limp."
-    "Before long, I stand up and walk to the living room."
+    "Я медленно переворачивал страницы, затем взял смятую бумажку, развернул её и держал на ладонях."
+    "Я вздохнул про себя."
+    "И когда воздух вышел изо рта, некогда летающие пылинки стали более заметными под настольной лампой."
+    "Самый знакомый почерк в моей жизни лежит там еле различимо, неспособный и вздохнуть. Я попытался сложить его обратно, но моё тело было слишком вялым."
+    "Вскоре я встал и пошёл в гостиную."
     scene black with dissolve
-    "It's probably midnight now, but I still want to take a walk, it's not like I will be able to know who or what awaits me in my dreams……{w=0.3} Or another night without any dreams."
+    "Сейчас, полагаю, полночь, но я всё ещё хочу прогуляться. Не думаю, что я узнал бы, кто или что ожидает меня в моих снах…{w=0.3} Или же это очередная ночь без всяких снов."
     scene bg doorway_night with dissolve
-    "I manage to reach the doorknob in darkness."
-    mc "What a day."
-    "I gently open the door."
+    "В темноте мне удается дотянуться до дверной ручки."
+    mc "Что-ж за день."
+    "Я медленно открываю дверь."
     show sayori laugh3 uu at i11:
         zoom 1.5
     hide sayori
-    randomperson "{cps=30}BOOOOOOOOOOOOO!!!!{/cps}{nw}"
-    "I'm caught off guard, stagger back against the door frame, barely maintain my balance."
-    "I catch my breath, then stand up to look at the doorway."
-    "What's happening? I swear I've heard something."
+    randomperson "{cps=30}БУ-У-У-У-У!{/cps}{nw}"
+    "Я был застигнут врасплох. Я отшатнулся назад, к дверному косяку, и с трудом сохранил равновесие."
+    "Перевёл дыхание, встал и смотрел на дверной проём."
+    "Что происходит? Клянусь, я что-то слышал."
     play music flatline volume 0.5
     scene cg fog with Dissolve(2.0)
     $ persistent.cg2 = True
     queue ambient int_night volume 0.7
-    "Some cyan fog enters my door from the distant darkness outside, forming the tenderest figure in my memory at the last defense line of mine."
-    "She slowly steps out of the glim far beyond my reach, descend from the celestial, like a helpless star."
-    "I feel a salty taste filling my throat."
-    "The outline starts to take form, then she waves her hand before my eyes."
-    "Seems like she made a mistake to measure the distance, her hand runs through my face, the thin fog gets disturbed, and then reluctantly gather together again."
+    "Некий голубой туман проникает в мою дверь из далёкой темноты снаружи, образуя на последней линии обороны моей памяти самую нежную фигуру."
+    "Она медленно вышла из мерцания за пределами моей досягаемости, спустилась с небес, как беспомощная звезда."
+    "Я почувствовал солоноватый привкус в горле."
+    "Контур начал обретать форму, а затем она помахала рукой пред моими глазами."
+    "Кажись, она ошиблась, измерив наше расстояние. Её рука прошла по моему лицу, тонкий туман рассеялся, а затем неохотно собрался воедино."
     scene bg doorway_night with Dissolve(1.0)
-    "When she finally releases my eyesight, an undeniably familiar face reveals."
+    "И когда она наконец отпустила мой взгляд, я увидел несомненно знакомое лицо."
     show sayori sadsmile1 dd at t11 with Dissolve(3.0)
     show sayori worried1 du
-    s "{size=-5}Hey……[player]……{/size}"
-    "I try my best to stay calm, but billions of strings all get intertwined inside my head as walls begin falling apart, leaving their solemn height behind."
+    s "{size=-5}Хей… [player]…{/size}"
+    "Я изо всех сил старался сохранять спокойствие, но в моей голове переплелись миллиарды струн, стены начали рушиться, оставляя позади свою торжественную высоту."
     play sound hb loop volume 1.0
     show vignette_black at vignetteflicker(-2.030)
     show black at easein_to_alpha(0, 20, 0.8)
     show layer master:
         blur 0
         easein 5 blur 10
-    "Overwhelming tides take down every fortress in the blink of an eye."
-    "My body trembles under the heavy air hammer, bashing and smashing."
-    "I take a glance at her neck, behind her half visible cyan, there's nothing but the silent doorway, facing the freezing breeze of November."
-    "I try to remember more, but my efforts become useless behind my blurry eyes."
+    "Мощные приливы в мгновение ока сносят любую крепость."
+    "Мое тело дрожало под мощными ударами воздуха, бьющими и крушащими."
+    "Я бросаю взгляд на её шею: за полузаметной голубизной нет ничего, кроме безмолвного дверного проема, за которым гуляет морозный ноябрьский ветер."
+    "Я пытаюсь вспомнить ещё что-либо, но мои усилия оказываются бесполезными из-за затуманенного взора."
     show sayori worried2 du at f11
-    s "{size=-5}[player],… what's wrong? ……{/size}"
-    "Seeing me wordless, she seems to be a bit worried."
-    "I close my eyes, forcing them to rotate a little.{w=0.25} Tears drip down to my shirt.{w=0.25} I dare not to open them, I dare not to confirm."
+    s "{size=-5}[player]… что-то не так?……{/size}"
+    "Видя, что я не мог вымолвить ни слова, она, кажется, была малость обеспокоена."
+    "Я закрываю глаза, понемногу закатывая их.{w=0.25} Слезы капают на рубашку.{w=0.25} Я не смею их открыть, я не смею это принять."
     show black at easein_to_alpha(0.8, 1.0, 1.0)
-    "My feet sink down the quicksand, I give in to the surging memory, let them drag me down, down to the bottom…{w=0.25} Only the cold air reminds me of my delicate presence."
+    "Мои ноги тонут в зыбучих песках, я поддаюсь нахлынувшим воспоминаниям, позволяю им тянуть меня вниз, прямиком на дно…{w=0.25} И только холодный воздух напоминает мне о моем присутствии."
     scene bg doorway_night with dissolve
     show sayori surprised1 uu at i11
     hide vignette
@@ -124,49 +124,49 @@ label af1_main:
     show layer master:
         blur 0
     with Dissolve(0.1)
-    s "{cps=*3}Heyyyy!!!{/cps}"
-    "Hearing her call, I open my eyes without any hesitation."
+    s "{cps=*3}Хе-е-ей!{/cps}"
+    "Услышав зов её, я без колебаний открываю глаза."
     show sayori sadsmile1 dd
-    "The cyan figure's still there……{w=0.25} Fog constantly fades at the edge of the outline, as if she were to disappear into the vast world any second with a blow of a storm."
+    "Голубая фигура все ещё там…{w=0.25} Туман рассеивается по краям контура, будто она может в любую секунду исчезнуть в бескрайнем мире из-за порыва бури."
     "…"
-    "{cps=*0.35}Luckily, there's no storm tonight, nor the vast world.{/cps}"
+    "{cps=*0.35}К счастью, сегодня ночью нет ни бури, ни бескрайнего мира.{/cps}"
     "…"
     "…"
-    mc "{cps=*0.25}…………Sayori?{/cps}"
+    mc "{cps=*0.25}… Сайори?{/cps}"
     show sayori sadsmile1 dd at f11
-    s "{size=-5}Hi [player]! Where are we right now?{/size}"
+    s "{size=-5}Здравствуй, [player]! А где это мы?{/size}"
     show sayori curious4 dd at t11
-    "Her voice is very hoarse, but her tone remains heart-lifting, as if nothing has ever changed."
-    "I chose my words, edited them, considered them."
-    "I scrutinize my thousands of phrases in thousand lines of poems thousands of times, trying to find the most proper way to reply to her."
+    "Её голос хриплый, но тональность осталась всё той же проникновенной, будто ничего и не изменилось."
+    "Я выбирал слова, менял их, обдумывал."
+    "Я разглядываю свои тысячи фраз в тысячах строк стихов тысячу раз, пытаясь найти наиболее подходящий способ ей ответить."
     pause(3.0)
-    "Finally, I let out a long sigh."
-    mc "{cps=*0.2}You really gave me a heart attack back there.{/cps}"
+    "Наконец, я выпустил длинный вздох."
+    mc "{cps=*0.2}Ты и впрямь довела меня до сердечного приступа.{/cps}"
     pause(1.0)
-    "I reach out to pat on her shoulder, but my hand just goes through her body, leaving only the darkness around the door."
+    "Я протянул руку, дабы похлопать её по плечу, но моя рука просто проходит сквозь ее тело, оставив лишь темноту вокруг двери."
     show sayori sadsmile2 ud at f11
-    s "{size=-5}Ehehe… it's always so interesting to see you get flustered.{/size}"
+    s "{size=-5}Хе-хе… всегда интересно наблюдать, как ты волнуешься.{/size}"
     show sayori sadsmile2 ud at t11
-    mc "Umm…I didn't know… I was just about to take a walk outside, and you suddenly……"
+    mc "Эм-м… Я не знаю… Я как раз собирался прогуляться, а ты вдруг…"
     show sayori laugh1 uu at laugh_cg
-    s "{size=-5}Hahahahahhhh!!{/size}"
-    "She lets out a giggle, seems still replaying my earlier reaction."
-    s "{size=-5}{cps=*2}Hahahah...{/cps}{/size}"
+    s "{size=-5}Ха-ха-ха-хаа!{/size}"
+    "Она хихикает, кажется, всё ещё прокручивая в голове ту мою реакцию."
+    s "{size=-5}{cps=*2}Ха-ха-ха...{/cps}{/size}"
     pause(1.0)
     show sayori sadsmile1 uu at t11
-    s "{size=-5}{cps=*2}Haha........{/cps}{/size}"
+    s "{size=-5}{cps=*2}Ха-ха....{/cps}{/size}"
     pause(1.0)
     show sayori reluc1 dd at s11
     pause(2.0)
-    "Our eyes meet as her laughter begins to dim."
+    "Наши взгляды встретились. Её смех начал стихать."
     pause(1.0)
     show sayori weep1 dd
-    "Even though we are standing at a close distance, my gaze seems to be carried a thousand miles away, traveling to the end of time."
-    "Here where even lights could not reach, I've finally found my sky-blue eyes."
-    "Although they are unable to escape the siege of stiff cyan, I remember their original color."
-    "I see limpid tears emerge from there, soaking her pillow, her Mr. Cow, her paper beneath her pen."
+    "Несмотря на то, что мы стояли близко друг к другу, мой взгляд словно перенёсся на тысячу миль, путешествуя прямо к концу времени."
+    "Здесь, куда даже свет не мог проникнуть, я наконец нашел небесно-голубые глаза."
+    "Хоть они не могли избежать нового оттенка тумана, я помнил их первоначальный цвет."
+    "Я видел, как на её глазах накатывались слезы, они впитывались в её подушку, её Мистера Корову, её бумагу под ручкой."
     pause(1.0)
-    mc "What ha...{cps=*0.25}{size=-5}How're you doing? .........{/size}{/cps}"
+    mc "Что проис...{cps=*0.25}{size=-5}Как дела?..{/size}{/cps}"
     pause(1.5)
     show sayori weep2 dd
     pause(1.0)
@@ -176,195 +176,195 @@ label af1_main:
     pause(0.7)
     show sayori weep6 uu
     pause(0.5)
-    "She lowers her head, tears leaking through her fingers unstoppably. Her shoulders begin to tremble, in the end, she can no longer hold it, collapses to me."
+    "Она опустила голову, слёзы неудержимо текли сквозь пальцы. Её плечи начали дрожать. В конце концов, она не выдержала и упала на меня."
     hide sayori with dissolve
-    "I reach out to embrace her, there's nothing I can come up with at this moment."
-    "I think a hug is the best thing I can do now."
+    "Я потянулся, чтобы обнять её, но в этот момент ничего не мог придумать."
+    "Думаю, объятия — это лучшее, что я мог бы сейчас предпринять."
     play sound fall
-    "But she goes right through my body as she crashes to the ground,"
-    "endless sorrow kicks in, drowning, slaughtering."
+    "Но она прошла сквозь мое тело, падая на землю,"
+    "и вечная печаль накатывает, топит, убивает."
     scene cg fell with dissolve
     $ persistent.cg3 = True
-    "A lighting tears my heart in half, I crouch down to lift her up, to hug her tightly."
-    "But no matter what I do, there's only the stone cold air to respond to me."
-    "Her crying is the only thing that echoes in my room, her figure gets stirred to a mess thanks to my movement, the mist is becoming less and less visible."
-    "Panic strikes, sending a chill down my spine. I hastily close the front door, and then try to rearrange the fog into her body, or rather, her shape."
+    "Словно молния разрывала моё сердце. Я наклонился, чтобы поднять её и крепко обнять."
+    "Но что бы я ни делал, я чувствовал в руках лишь холодный как камень воздух."
+    "Её плач — единственное, что раздавалось в моей комнате, её фигура пришла в беспорядок от моих движений, туман становился всё менее и менее заметным."
+    "Накатывала паника, и холодок пробегал по моей спине. Я торопливо закрыл входную дверь, затем попытался перестроить туман в её тело, или, скорее, в её форму."
     scene bg doorway_night with dissolve
     show sayori weep7 uu at t11 with Dissolve(1.5)
-    "I put my hand on her back to comfort her."
-    "I know Physics doesn't quite work the way it usually does right now, that I'm just using my own strength to hold my hand in the air to match the pose of comforting."
+    "Я положил руку ей на спину, пытаясь успокоить."
+    "Я знаю, что физика работает с ней не совсем так, как обычно, и я просто использовал собственную силу, чтобы держать руку в воздухе, дабы соответствовать позе утешения."
     show sayori weep8 uu
-    "I hope this will somehow make her feel better, even though I don't believe in the slightest that the warmth can reach her side."
-    "But I know she's by {b}my{/b} side, and that's ……that's…"
-    "{cps=*0.5}That's good.{/cps}"
+    "Я надеялся, что это хоть как-то заставит её почувствовать себя лучше, хотя нисколько не верил, что это тепло до неё дойдет."
+    "Но я знал, что она рядом со {b}мной{/b}, и это… это…"
+    "{cps=*0.5}Это хорошо.{/cps}"
     $ renpy.music.set_volume(0.2, 20, 'music')
     show sayori weep8 uu at focus
-    "I kneel by her side, I couldn't make out a single word from her sobbing."
-    "She buries her face in her hands, her coral hair tumbles down to cover them as her bow shakes in unspeakable fear."
-    "Suddenly I let out a bitter chuckle, sadness and sorrow could no longer be suppressed under my throat."
+    "Я опустился на колени рядом с ней, но не мог разобрать ни слова из её рыданий."
+    "Она закрыла лицо руками, её коралловые волосы упали вниз, закрывая их, а её бантик трясся от невыразимого страха."
+    "Внезапно я горько усмехнулся, печаль и скорбь больше не могли сдерживаться в моем горле."
     scene black with dissolve
-    "I memorize that Monday… the chair lying on her floor, and the weight when she fell to my arms………"
-    "The rough rope still tied her neck like a wolf choking its prey, with the dried blood rusting the air."
-    "Morning lights gently penetrated her window, but they could never warm her cold body again."
+    "Я помню тот понедельник… стул, лежащий на полу, и тяжесть, когда она упала мне на руки…"
+    "Грубая верёвка всё ещё обвивала её шею, словно волк, душащий свою добычу, а в воздухе витал запах высохшей крови."
+    "Утренний свет нежно проникал в её окно, но он уже никогда не сможет согреть её замерзшее тело."
     stop music fadeout 5.0
     queue ambient int_night volume 0.8
     scene bg doorway_night with dissolve
     show sayori sadsmile3 uu at t11
-    mc "{cps=*0.25}Sor… {/cps}"
-    mc "{cps=*0.25}I'm sorry……{/cps}"
-    "Once again I try to reach her, but the result is all the same."
+    mc "{cps=*0.25}Прос… {/cps}"
+    mc "{cps=*0.25}Прости меня…{/cps}"
+    "Я снова пытаюсь убедить её в своей вине, но результат тот же."
     show sayori sadsmile3 ud
-    s "{size=-5}It's fine.{/size}"
+    s "{size=-5}Всё в порядке.{/size}"
     pause(0.5)
-    "She wipes her tears away, trying her best to hold the sobbing back, then looks up at me."
+    "Она вытерла слёзы, изо всех сил стараясь сдержать рыдания, а затем подняла на меня взгляд."
     show sayori care1 dd
-    s "{size=-5}It wasn't your fault…{/size}"
-    s "{size=-5}I just…{/size}"
+    s "{size=-5}Это была не твоя вина…{/size}"
+    s "{size=-5}Я просто…{/size}"
     "…"
     "......"
-    "Her gravelly voice is barely recognizable, I can see her throat struggling under that awful bruise on her neck, as if the rope's still there."
+    "Её хриплый голос едва можно было узнать, я видел, как её горло сводило судорогой под этим ужасным синяком на шее, как будто верёвка всё ещё была на ней."
     pause(0.5)
-    mc "Does it hurt?"
+    mc "Болит?"
     show sayori peace1 dd at dip_slightly
-    "She nods."
-    mc "Don't talk OK? I'll get you some water."
+    "Она кивнула."
+    mc "Не говори, ладно? Я принесу воды."
     hide sayori with dissolve
     pause(1.0)
-    "I freeze the moment I stand up."
-    "Stupid."
-    "I can only turn around to face her in awkwardness as I find her clutching the end of my jacket."
+    "Я встал и задумался."
+    "Тупица."
+    "Я мог лишь неловко повернуться к ней, заметив, что она сжимала край моей куртки."
     show sayori weep9 ud at t11
-    "I reach out to take her hand in mine with disbelief. Out of the blue, hers gets lifted up by me successfully."
-    "Sadly, there are too many details in my reality, soon I find out that she's just cooperating."
-    "However, a small sense of warmth flows out from her fingertips."
-    "Yet it disappears before I can pay more attention to it."
-    mc "{size=-5}{cps=*0.25}What ha……{/cps}{/size}"
-    mc "…How're you doing?"
+    "Без особой надежды я потянулся, чтобы взять её руку. Ни с того ни с сего, я успешно поднял её."
+    "К сожалению, вскоре я узнал, что она просто подыграла мне."
+    "Однако я почувствовал лёгкое ощущение тепла кончиков её пальцев."
+    "Но оно исчезло раньше, чем я успел обратить на него внимание."
+    mc "{size=-5}{cps=*0.25}Что проис…{/cps}{/size}"
+    mc "…как дела?"
     pause(1.0)
     show sayori reluc2 dd
-    s "{size=-5}I……emmm…{/size}"
+    s "{size=-5}Я… эм-м…{/size}"
     pause(1.0)
     show sayori sadsmile4 du
-    s "{size=-5}I'm fine.{/size}"
-    "She forces a smile."
-    mc "{cps=*0.25}Why…{/cps}"
+    s "{size=-5}В порядке.{/size}"
+    "Она выдавила улыбку."
+    mc "{cps=*0.25}Зачем же ты…{/cps}"
     pause(0.5)
-    "Now's not the time for that."
-    mc "Are you hungry?"
-    "The sentence pops out my mouth without me noticing as I trying to change the subject."
+    "Нет, сейчас не время для этого."
+    mc "Ты голодна?"
+    "Незаметно для себя сказал я в попытке сменить тему разговора."
     show sayori reluc3 dd
     pause(1.0)
     show sayori weep1 dd at s11
-    s "{size=-5}I………{/size}"
+    s "{size=-5}Я…{/size}"
     show sayori reluc4 dd
-    "She look at the ground, helplessly."
-    "This is enough!!!"
-    "Her expression is like tons of rocks covering my chest, making it impossible for me to breathe."
-    "I have to do something!"
+    "Она беспомощно посмотрела в землю."
+    "С меня довольно!"
+    "Выражение её лица было похоже на тонну камней, навалившихся на мою грудь, мешающих мне дышать."
+    "Мне нужно сделать что-нибудь!"
     scene bg kitchen1_night with dissolve
     play sound fridge volume 0.9
-    "I storm in the kitchen, cluelessly searching in the fridge."
-    "Finally I manage to find something that can be called ‘food' before I put them into the microwave, and sit at the table."
-    "She follows me into the kitchen, I turn on the light."
+    "Я ворвался на кухню, беспомощно роясь в холодильнике."
+    "Наконец мне удалось найти что-то, что можно было назвать «едой», прежде чем я положил это в микроволновку и сел за стол."
+    "Она прошла за мной на кухню, я включил свет."
     play sound switch
     scene bg kitchen1_day
     show sayori curious1 dd at t11
-    "that's when I noticed that she's not standing firmly on the ground, but rather a floating state."
+    "Вот тогда-то я и заметил, что она не стоит на земле, а скорее парит в воздухе."
     show sayori curious2 ud at f11
-    s "{size=-5}You moved?{/size}"
+    s "{size=-5}Ты переехал?{/size}"
     show sayori curious2 ud at t11
-    mc "Yeah…"
-    mc "I transferred to another school. I couldn't stay around there anymore."
-    "I look at her in guilt."
+    mc "Ага…"
+    mc "Я перевелся в другую школу. Я не мог больше оставаться в той."
+    "Я смотрю на нее с чувством вины."
     show sayori curious2 ud at t33
     pause(0.5)
     show sayori curious2 ud at f33
-    s "{size=-5}What's this?{/size}"
+    s "{size=-5}А это что?{/size}"
     show sayori curious2 ud at t33
-    "She points to my PS5 in the corner."
-    mc "Ahh… ummm……That's my gaming console."
+    "Она указывает на мою PS5 в углу."
+    mc "А-а… эм-м… Моя игровая консоль."
     show sayori angry1 dd at f33
-    s "{size=-5}Humph! So you began to play games again?{/size}"
+    s "{size=-5}Хмф! Так ты снова начал в игры играть?{/size}"
     show sayori angry2 du
-    s "{size=-5}I bet that you're not attending any clubs either!{/size}"
+    s "{size=-5}Держу пари, что ты и в клубы никаких не состоишь!{/size}"
     show sayori angry2 du at t33
-    mc "Well… actually…"
-    mc "There are a lot of activities going around in college, so…"
+    mc "Ну… типа…"
+    mc "В колледже проводят много мероприятий, так что…"
     show sayori curious3 uu at h33
-    s "{size=-5}What?!{/size}"
-    s "{size=-5}You are in college now???{/size}"
-    mc "Yeah, after all……"
-    mc "It's been a while…"
+    s "{size=-5}Что?!{/size}"
+    s "{size=-5}Ты уже в колледже?{/size}"
+    mc "Да, после всего…"
+    mc "Прошло много времени…"
     show sayori curious2 uu at t33
-    s "{size=-5}How long?{/size}"
-    mc "...Four years..."
+    s "{size=-5}Как много?{/size}"
+    mc "…четыре года…"
     show sayori reluc5 dd at s33
     "…"
     show sayori curious4 dd at t33
-    s "{size=-5}Already…four years?{/size}"
-    "..."
+    s "{size=-5}Целых… четыре года?{/size}"
+    "…"
     show sayori sadsmile3 ud
-    s "{size=-5}Look at you.{/size}"
+    s "{size=-5}Взгляни на себя.{/size}"
     show sayori sadsmile3 ud at t11
     show sayori sadsmile5 du at f11
-    s "{size=-5}Didn't comb, didn't shave…{/size}"
-    "She walks towards me, mildly touching my face."
+    s "{size=-5}Не причёсанный, не побритый…{/size}"
+    "Она подошла ко мне и слегка коснулась моего лица."
     show sayori mock1 du at focus(640, 0.85, 50)
-    s "{size=-5}Jeez, you are worse than me sometimes.{/size}"
-    "She giggles, running her hand through my long-forgotten hair. However, it feels like nothing but the plain air."
-    "I'm speechless, thinking of it, when was the last time I looked in a mirror?"
-    s "{size=-5}So, what does co…{/size}{nw}"
+    s "{size=-5}Блин, ты порой ничуть не лучше меня.{/size}"
+    "Она, хихикая, провела рукой по моим давно забытым для себя волосам. Но по ощущениям это всего лишь воздух."
+    "Я не мог подобрать слов, пока думал об этом. Когда я в последний раз вообще смотрелся в зеркало?"
+    s "{size=-5}И как оно в колл…{/size}{nw}"
     play sound microwavefinish
     show sayori curious2 uu at t11
     pause(0.5)
     show sayori curious2 uu at h11
-    mc "Wait here."
+    mc "Дай минутку."
     hide sayori with dissolve
     pause(2.0)
-    "Warm smell spreads out all over the kitchen as soon as I open the microwave, bringing at least some ease to this cold night."
-    "I put the pasta onto the table, its red sauce seems especially intriguing under the orange light. I have to say, this even makes me hungry."
+    "Тёплый запах разнёсся по кухне, как только я открыл микроволновку, внося хоть какое-то облегчение в этот холодный вечер."
+    "Я подал лапшу на стол, её красный соус кажется особенно интригующим под блекло-оранжевым светом. Должен сказать, от вида этого блюда я даже проголодался."
     show sayori laugh3 uu at t11
-    "Her eyes are just about to beam, but it doesn't ease me a bit. I put a fork before her."
+    "Казалось бы, её глаза вот-вот засияют, но мне от этого было ничуть не легче. Я положил перед ней вилку."
     show sayori laugh3 uu at h11
-    s "{size=-5}Wow! This looks reeeeaaally nice!!!{/size}"
-    "Her familiar gasp rings by my ears."
+    s "{size=-5}Вау! Выглядит о-о-о-о-очень классно!{/size}"
+    "Её знакомый вздох звенит у меня в ушах."
     show sayori smile1 ud
-    "The Sayori I know fully comes back as her hand reaches the fork and prepares a pasta massacre when suddenly--"
+    "Знакомая мне Сайори совсем уж вернулась, когда её рука потянулась к вилке и готовилась к резне макарон, как вдруг--"
     show sayori reluc5 dd at s11
-    "--the motionless metal stayed where it was like a rope tightening its knot."
-    "I clench my fists."
-    "{i}God damn it!!!{i}"
-    "I curse the fuckin' pasta in my mind, I want to burn the table, I want to crash the useless microwave!!!"
+    "--неподвижный металл оставался на месте, как верёвка, затянутая в узел."
+    "Я сжал кулаки."
+    "{i}Да чёрт!{i}"
+    "Я мысленно проклинаю эти ебучие макароны, я хочу поджечь стол, я хочу разбить эту бесполезную микроволновку!"
     show sayori sadsmile1 dd at t11
     queue ambient int_night volume 0.6
     play music Around fadein 1.0
-    s "{size=-5}You can have it.{/size}"
+    s "{size=-5}Возьми.{/size}"
     show sayori sadsmile4 dd
-    s "{size=-5}You didn't eat on time, right?{/size}"
-    s "{size=-5}I can tell.{/size}"
+    s "{size=-5}Ты ведь не поел вовремя, так?{/size}"
+    s "{size=-5}Я в этом уверена.{/size}"
     "…"
-    "I smile."
-    mc "No one knows me better than you."
+    "Я улыбнулся."
+    mc "Никто меня не знает лучше, чем знаешь ты."
     show sayori mock2 dd
-    s "{size=-5}Otherwise why would you bring yourself an extra fork?{/size}"
-    "I take up my fork, yet I can hardly move them."
-    "Their weight is beyond all measuring, sealing all my senses. I can't move them an inch, even if I have the power to rewind day and night."
+    s "{size=-5}А иначе зачем ты ещё одну вилку с собой взял?{/size}"
+    "Я беру вилку, но с трудом могу ею двигать."
+    "Вес не поддается никаким измерениям, она завладела моими чувствами. Я не мог сдвинуть ни на дюйм, даже если бы у меня была возможность перемотать день назад."
     show sayori care2 du
-    s "{size=-5}Hurry, it's getting cold.{/size}"
-    mc "Well, it's still a bit too hot right now since I heated it too long……and…um……"
-    "I want to slap myself in the face, what kind of bad excuse is that?"
-    "Anyway, I start eating."
+    s "{size=-5}Быстрее, остынет.{/size}"
+    mc "Ну, сейчас она ещё горячая, ибо я слишком долго её разогревал… и… эм…"
+    "Мне хочется влепить себе пощёчину, что за хреновая отговорка?"
+    "Так или иначе, я стал есть."
     hide sayori with dissolve
     pause(2.0)
-    "The food."
+    "Еда."
     pause(1.0)
-    "It is a bit hot, to say the least. But it's not my problem to worry about."
-    "I just mix up the sauce with random-intertwined curves, and stuff whatever it turns out to be into my mouth."
-    "Their density decreases in my plate, when the last minced meat vanishes behind my teeth, a tear drops to the warmth that lingers above the whiteness. "
-    "I reach out to take some napkins with my mouth full of pasta."
+    "Она была горячевата, но это не та проблема, о которой стоило беспокоиться."
+    "Я просто перемешал соус в произвольном порядке и положил в рот всё, что получилось."
+    "Количество еды уменьшается, когда последний кусочек фарша исчезает у меня на зубах, слеза упала на тепло, которое осталось на белизне тарелки."
+    "Я тянусь за салфетками, а мой рот набит пастой."
     show sayori smile1 uu at t11
-    "Sayori sits across the table, holding her chin. "
-    "She seems……better?"
+    "Сайори сидит за столом, держась за подбородок."
+    "Она выглядит… лучше?"
     show sayori smile1 uu at f11
     s "{size=-5}Your cooking is not so bad after all…{/size}"
     show sayori smile1 uu at t11
