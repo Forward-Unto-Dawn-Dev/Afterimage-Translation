@@ -6,21 +6,21 @@ label af1_main:
         act1, Dissolve(3.0),
         True])
 
-    "Наконец, я начал проходить мимо иностранных зданий, фонарей и прилавков, а затем начал произносить свои хорошо отрепетированные реплики этим лживым лицам."
+    "Наконец, я начал проходить мимо зданий, фонарей и прилавков, а затем стал произносить свои хорошо отрепетированные реплики этим лживым лицам."
     "Мы достали наши документы, обменялись улыбками, продемонстрировав друг другу зубы, в то время как наши языки разжигали слюну, вплетая вежливые слова в нагнетённую атмосферу."
     "Я взял свой мокрый зонт, лежащий у двери, и, стоя на месте, смотрел на улицу."
     scene bg loudstreet1_night_rain with dissolve
-    "Внезапно некая тень приближается к моей спине, я уклоняюсь от ее удара и, пошатываясь, забиваюсь в угол."
+    "Внезапно некая тень приближается к моей спине, я уклоняюсь от её удара и, пошатываясь, забиваюсь в угол."
     show crowd2 at t33
-    "Это оказалась пара старшеклассников, которая прогуливалась по улице, болтая и смеясь."
+    "Это оказалась пара старшеклассниц, которая прогуливалась по улице, болтая и смеясь."
     "Я кое-что заметил…"
-    "Их галстучки…"
+    "Их бантики…"
     hide crowd2 with Dissolve(3.0)
     "Я смотрел на них, пока эти оттенки красного не стали совсем неразличимыми в дали."
     "Свет моего телефона зачастую играет главную роль на фоне тусклого неба. Я небрежно управлял приложениями одной рукой."
     "В конце концов я выключил GPS и просто вернулся туда, откуда пришёл."
     scene bg house1_night2_rain with dissolve
-    "Оранжевый блеск вырисовывал мой силуэт на витринах напротив, а я всё шёл вперёд, опустив глаза в землю."
+    "Оранжевый блеск вырисовывал мой силуэт на окнах напротив, а я всё шёл вперёд, опустив глаза в землю."
     "Но ощущение тепла остановило меня прямо посреди дороги, перед тихим двориком."
     "Незнакомая машина была припаркована у дома. Хотя я и стоял в нескольких метрах от неё, жар капота было трудно игнорировать, как и свет за окном."
     "Переливы света окрашивали каждый сантиметр комнаты в свой нежный цвет, и я с трудом мог что-либо разглядеть сквозь мутные окна, но был уверен, что там много людей, которые сидят за большим столом."
@@ -28,14 +28,14 @@ label af1_main:
     play sound cheers
     show white with Dissolve(2.0)
     "Должно быть, они ужинали. Средь весёлого смеха и звона столовых приборов вырисовывались двое детей."
-    "\"Умеешь готовить? Да ну? Может тебе стоит сказать {i}'жрать'{i}?\""
+    "\"Умеешь готовить? Да ну? Может тебе стоит сказать {i}«есть»{i}?\""
     "\"Не веришь? Тогда не проси меня даже пробовать!\""
     play sound shower
     "Струя расслабления, исходящая от насадки для душа, стекает по моим векам, задерживаясь на коже."
     "Блики перескакивают с одной капли на другую, создавая покой."
     "Мои нервы, кажется, понемногу успокаивались.{w=0.3} Нет ничего лучше, чем принять воистину горячий душ после напряженного, холодного и дождливого дня."
     stop sound fadeout 1.5
-    "\"Ты принесла сегодня свою подушку?\"{w=0.3} Я вытираюсь и открываю дверь."
+    "\"Ты принёс сегодня свою подушку?\"{w=0.3} Я вытираюсь и открываю дверь."
     stop music
     scene bg house1_night2_rain with vpunch
     queue sound rain volume 0.36
@@ -47,7 +47,7 @@ label af1_main:
     show oldman at t11
     randomperson "Э-эй?"
     "Старик заметил мою реакцию и ещё раз похлопал меня по плечу."
-    randomperson "Я вижу ты тут долго стоишь…"
+    randomperson "Я вижу, ты тут долго стоишь…"
     randomperson "Ждёшь кого-то?"
     mc "Ах! Э-эм…"
     mc "Нет, не совсем… извините, просто ворон считал…"
@@ -73,10 +73,10 @@ label af1_main:
     "Самый знакомый почерк в моей жизни лежит там еле различимо, неспособный и вздохнуть. Я попытался сложить его обратно, но моё тело было слишком вялым."
     "Вскоре я встал и пошёл в гостиную."
     scene black with dissolve
-    "Сейчас, полагаю, полночь, но я всё ещё хочу прогуляться. Не думаю, что я узнал бы, кто или что ожидает меня в моих снах…{w=0.3} Или же это очередная ночь без всяких снов."
+    "Сейчас, полагаю, полночь, но я всё ещё хочу прогуляться. Не думаю, что я узнал бы, кто или что ожидает меня в моих снах…{w=0.3} или же это очередная ночь без всяких снов."
     scene bg doorway_night with dissolve
     "В темноте мне удается дотянуться до дверной ручки."
-    mc "Что-ж за день."
+    mc "Что-ж за день?.."
     "Я медленно открываю дверь."
     show sayori laugh3 uu at i11:
         zoom 1.5
@@ -107,15 +107,15 @@ label af1_main:
         blur 0
         easein 5 blur 10
     "Мощные приливы в мгновение ока сносят любую крепость."
-    "Мое тело дрожало под мощными ударами воздуха, бьющими и крушащими."
-    "Я бросаю взгляд на её шею: за полузаметной голубизной нет ничего, кроме безмолвного дверного проема, за которым гуляет морозный ноябрьский ветер."
+    "Моё тело дрожало под мощными ударами воздуха, бьющими и крушащими."
+    "Я бросаю взгляд на её шею: за полузаметной голубизной нет ничего, кроме безмолвного дверного проёма, за которым гуляет морозный ноябрьский ветер."
     "Я пытаюсь вспомнить ещё что-либо, но мои усилия оказываются бесполезными из-за затуманенного взора."
     show sayori worried2 du at f11
-    s "{size=-5}[player]… что-то не так?……{/size}"
+    s "{size=-5}[player]… что-то не так?…{/size}"
     "Видя, что я не мог вымолвить ни слова, она, кажется, была малость обеспокоена."
-    "Я закрываю глаза, понемногу закатывая их.{w=0.25} Слезы капают на рубашку.{w=0.25} Я не смею их открыть, я не смею это принять."
+    "Я закрываю глаза, понемногу закатывая их.{w=0.25} Слёзы капают на рубашку.{w=0.25} Я не смею их открыть, я не смею это принять."
     show black at easein_to_alpha(0.8, 1.0, 1.0)
-    "Мои ноги тонут в зыбучих песках, я поддаюсь нахлынувшим воспоминаниям, позволяю им тянуть меня вниз, прямиком на дно…{w=0.25} И только холодный воздух напоминает мне о моем присутствии."
+    "Мои ноги тонут в зыбучих песках, я поддаюсь нахлынувшим воспоминаниям, позволяю им тянуть меня вниз, прямиком на дно…{w=0.25} И только холодный воздух напоминает мне о моём присутствии."
     scene bg doorway_night with dissolve
     show sayori surprised1 uu at i11
     hide vignette
@@ -127,12 +127,12 @@ label af1_main:
     s "{cps=*3}Хе-е-ей!{/cps}"
     "Услышав зов её, я без колебаний открываю глаза."
     show sayori sadsmile1 dd
-    "Голубая фигура все ещё там…{w=0.25} Туман рассеивается по краям контура, будто она может в любую секунду исчезнуть в бескрайнем мире из-за порыва бури."
+    "Голубая фигура всё ещё здесь…{w=0.25} Туман рассеивается по краям контура, будто она может в любую секунду исчезнуть в бескрайнем мире из-за порыва бури."
     "…"
     "{cps=*0.35}К счастью, сегодня ночью нет ни бури, ни бескрайнего мира.{/cps}"
     "…"
     "…"
-    mc "{cps=*0.25}… Сайори?{/cps}"
+    mc "{cps=*0.25}…Сайори?{/cps}"
     show sayori sadsmile1 dd at f11
     s "{size=-5}Здравствуй, [player]! А где это мы?{/size}"
     show sayori curious4 dd at t11
@@ -140,21 +140,21 @@ label af1_main:
     "Я выбирал слова, менял их, обдумывал."
     "Я разглядываю свои тысячи фраз в тысячах строк стихов тысячу раз, пытаясь найти наиболее подходящий способ ей ответить."
     pause(3.0)
-    "Наконец, я выпустил длинный вздох."
-    mc "{cps=*0.2}Ты и впрямь довела меня до сердечного приступа.{/cps}"
+    "Наконец, я выпустил глубокий вздох."
+    mc "{cps=*0.2}Ты и впрямь чуть не довела меня до сердечного приступа.{/cps}"
     pause(1.0)
-    "Я протянул руку, дабы похлопать её по плечу, но моя рука просто проходит сквозь ее тело, оставив лишь темноту вокруг двери."
+    "Я протянул руку, дабы похлопать её по плечу, но моя рука просто прошла сквозь её тело, оставив лишь темноту вокруг двери."
     show sayori sadsmile2 ud at f11
     s "{size=-5}Хе-хе… всегда интересно наблюдать, как ты волнуешься.{/size}"
     show sayori sadsmile2 ud at t11
     mc "Эм-м… Я не знаю… Я как раз собирался прогуляться, а ты вдруг…"
     show sayori laugh1 uu at laugh_cg
-    s "{size=-5}Ха-ха-ха-хаа!{/size}"
+    s "{size=-5}Ха-ха-ха-ха-а!{/size}"
     "Она хихикает, кажется, всё ещё прокручивая в голове ту мою реакцию."
     s "{size=-5}{cps=*2}Ха-ха-ха...{/cps}{/size}"
     pause(1.0)
     show sayori sadsmile1 uu at t11
-    s "{size=-5}{cps=*2}Ха-ха....{/cps}{/size}"
+    s "{size=-5}{cps=*2}Ха-ха...{/cps}{/size}"
     pause(1.0)
     show sayori reluc1 dd at s11
     pause(2.0)
@@ -162,9 +162,9 @@ label af1_main:
     pause(1.0)
     show sayori weep1 dd
     "Несмотря на то, что мы стояли близко друг к другу, мой взгляд словно перенёсся на тысячу миль, путешествуя прямо к концу времени."
-    "Здесь, куда даже свет не мог проникнуть, я наконец нашел небесно-голубые глаза."
+    "Здесь, куда даже свет не мог проникнуть, я наконец нашёл небесно-голубые глаза."
     "Хоть они не могли избежать нового оттенка тумана, я помнил их первоначальный цвет."
-    "Я видел, как на её глазах накатывались слезы, они впитывались в её подушку, её Мистера Корову, её бумагу под ручкой."
+    "Я видел, как на её глазах накатывались слёзы, они впитывались в её подушку, её Мистера Корову, её бумагу под ручкой."
     pause(1.0)
     mc "Что проис...{cps=*0.25}{size=-5}Как дела?..{/size}{/cps}"
     pause(1.5)
@@ -178,15 +178,15 @@ label af1_main:
     pause(0.5)
     "Она опустила голову, слёзы неудержимо текли сквозь пальцы. Её плечи начали дрожать. В конце концов, она не выдержала и упала на меня."
     hide sayori with dissolve
-    "Я потянулся, чтобы обнять её, но в этот момент ничего не мог придумать."
+    "Я потянулся, чтобы обнять её, и в этот момент ничего не мог придумать."
     "Думаю, объятия — это лучшее, что я мог бы сейчас предпринять."
     play sound fall
-    "Но она прошла сквозь мое тело, падая на землю,"
-    "и вечная печаль накатывает, топит, убивает."
+    "Но она прошла сквозь моё тело, падая на землю,"
+    "и эта вечная печаль накатывает, топит, убивает."
     scene cg fell with dissolve
     $ persistent.cg3 = True
-    "Словно молния разрывала моё сердце. Я наклонился, чтобы поднять её и крепко обнять."
-    "Но что бы я ни делал, я чувствовал в руках лишь холодный как камень воздух."
+    "Словно молния сейчас разрывала моё сердце. Я наклонился, чтобы поднять её и крепко обнять."
+    "Но что бы я ни делал, я чувствовал в руках лишь холодный воздух."
     "Её плач — единственное, что раздавалось в моей комнате, её фигура пришла в беспорядок от моих движений, туман становился всё менее и менее заметным."
     "Накатывала паника, и холодок пробегал по моей спине. Я торопливо закрыл входную дверь, затем попытался перестроить туман в её тело, или, скорее, в её форму."
     scene bg doorway_night with dissolve
@@ -201,16 +201,16 @@ label af1_main:
     show sayori weep8 uu at focus
     "Я опустился на колени рядом с ней, но не мог разобрать ни слова из её рыданий."
     "Она закрыла лицо руками, её коралловые волосы упали вниз, закрывая их, а её бантик трясся от невыразимого страха."
-    "Внезапно я горько усмехнулся, печаль и скорбь больше не могли сдерживаться в моем горле."
+    "Внезапно я горько усмехнулся, печаль и скорбь больше не могли сдерживаться в моём горле."
     scene black with dissolve
     "Я помню тот понедельник… стул, лежащий на полу, и тяжесть, когда она упала мне на руки…"
     "Грубая верёвка всё ещё обвивала её шею, словно волк, душащий свою добычу, а в воздухе витал запах высохшей крови."
-    "Утренний свет нежно проникал в её окно, но он уже никогда не сможет согреть её замерзшее тело."
+    "Утренний свет нежно проникал в её окно, но он уже никогда не сможет согреть её замёрзшее тело."
     stop music fadeout 5.0
     queue ambient int_night volume 0.8
     scene bg doorway_night with dissolve
     show sayori sadsmile3 uu at t11
-    mc "{cps=*0.25}Прос… {/cps}"
+    mc "{cps=*0.25}Прос-…{/cps}"
     mc "{cps=*0.25}Прости меня…{/cps}"
     "Я снова пытаюсь убедить её в своей вине, но результат тот же."
     show sayori sadsmile3 ud
@@ -221,7 +221,6 @@ label af1_main:
     s "{size=-5}Это была не твоя вина…{/size}"
     s "{size=-5}Я просто…{/size}"
     "…"
-    "......"
     "Её хриплый голос едва можно было узнать, я видел, как её горло сводило судорогой под этим ужасным синяком на шее, как будто верёвка всё ещё была на ней."
     pause(0.5)
     mc "Болит?"
@@ -234,12 +233,12 @@ label af1_main:
     "Тупица."
     "Я мог лишь неловко повернуться к ней, заметив, что она сжимала край моей куртки."
     show sayori weep9 ud at t11
-    "Без особой надежды я потянулся, чтобы взять её руку. Ни с того ни с сего, я успешно поднял её."
+    "Без особой надежды я потянулся, чтобы взять её руку. Ни с того ни с сего, у меня это получилось."
     "К сожалению, вскоре я узнал, что она просто подыграла мне."
     "Однако я почувствовал лёгкое ощущение тепла кончиков её пальцев."
-    "Но оно исчезло раньше, чем я успел обратить на него внимание."
+    "Но оно исчезло раньше, прежде чем я успел сказать об этом."
     mc "{size=-5}{cps=*0.25}Что проис…{/cps}{/size}"
-    mc "…как дела?"
+    mc "…как ты?"
     pause(1.0)
     show sayori reluc2 dd
     s "{size=-5}Я… эм-м…{/size}"
@@ -259,7 +258,7 @@ label af1_main:
     show sayori reluc4 dd
     "Она беспомощно посмотрела в землю."
     "С меня довольно!"
-    "Выражение её лица было похоже на тонну камней, навалившихся на мою грудь, мешающих мне дышать."
+    "Выражение её лица вызывало во мне то чувство, будто груда камней, навалившихся на моё тело, мешает мне дышать."
     "Мне нужно сделать что-нибудь!"
     scene bg kitchen1_night with dissolve
     play sound fridge volume 0.9
@@ -269,13 +268,13 @@ label af1_main:
     play sound switch
     scene bg kitchen1_day
     show sayori curious1 dd at t11
-    "Вот тогда-то я и заметил, что она не стоит на земле, а скорее парит в воздухе."
+    "Вот тогда-то я и заметил, что она не просто стоит на земле, а, скорее, парит в воздухе."
     show sayori curious2 ud at f11
     s "{size=-5}Ты переехал?{/size}"
     show sayori curious2 ud at t11
     mc "Ага…"
     mc "Я перевелся в другую школу. Я не мог больше оставаться в той."
-    "Я смотрю на нее с чувством вины."
+    "Я смотрю на неё с чувством вины."
     show sayori curious2 ud at t33
     pause(0.5)
     show sayori curious2 ud at f33
@@ -286,7 +285,7 @@ label af1_main:
     show sayori angry1 dd at f33
     s "{size=-5}Хмф! Так ты снова начал в игры играть?{/size}"
     show sayori angry2 du
-    s "{size=-5}Держу пари, что ты и в клубы никаких не состоишь!{/size}"
+    s "{size=-5}Держу пари, что ты и в клубе никаком не состоишь!{/size}"
     show sayori angry2 du at t33
     mc "Ну… типа…"
     mc "В колледже проводят много мероприятий, так что…"
@@ -329,19 +328,19 @@ label af1_main:
     s "{size=-5}Вау! Выглядит о-о-о-о-очень классно!{/size}"
     "Её знакомый вздох звенит у меня в ушах."
     show sayori smile1 ud
-    "Знакомая мне Сайори совсем уж вернулась, когда её рука потянулась к вилке и готовилась к резне макарон, как вдруг--"
+    "Знакомая мне Сайори совсем уж вернулась, когда её рука потянулась к вилке и готовилась к резне макарон, как вдруг…"
     show sayori reluc5 dd at s11
-    "--неподвижный металл оставался на месте, как верёвка, затянутая в узел."
+    "…неподвижный металл оставался на месте, как верёвка, затянутая в узел."
     "Я сжал кулаки."
     "{i}Да чёрт!{i}"
-    "Я мысленно проклинаю эти ебучие макароны, я хочу поджечь стол, я хочу разбить эту бесполезную микроволновку!"
+    "Я мысленно проклинаю эти ебучие макароны, я хотел поджечь стол, хотел разбить эту бесполезную микроволновку!"
     show sayori sadsmile1 dd at t11
     queue ambient int_night volume 0.6
     play music Around fadein 1.0
     s "{size=-5}Возьми.{/size}"
     show sayori sadsmile4 dd
     s "{size=-5}Ты ведь не поел вовремя, так?{/size}"
-    s "{size=-5}Я в этом уверена.{/size}"
+    s "{size=-5}Я уверена.{/size}"
     "…"
     "Я улыбнулся."
     mc "Никто меня не знает лучше, чем знаешь ты."
@@ -359,287 +358,289 @@ label af1_main:
     "Еда."
     pause(1.0)
     "Она была горячевата, но это не та проблема, о которой стоило беспокоиться."
-    "Я просто перемешал соус в произвольном порядке и положил в рот всё, что получилось."
-    "Количество еды уменьшается, когда последний кусочек фарша исчезает у меня на зубах, слеза упала на тепло, которое осталось на белизне тарелки."
+    "Я просто перемешал соус в произвольном порядке и положил в рот всё, что удалось уместить."
+    "Количество еды уменьшается, когда последний кусочек фарша исчезает у меня на зубах. Слеза упала на тепло, что осталось на белизне тарелки."
     "Я тянусь за салфетками, а мой рот набит пастой."
     show sayori smile1 uu at t11
     "Сайори сидит за столом, держась за подбородок."
     "Она выглядит… лучше?"
     show sayori smile1 uu at f11
-    s "{size=-5}Your cooking is not so bad after all…{/size}"
+    s "{size=-5}А твоя готовка не так уж и плоха…{/size}"
     show sayori smile1 uu at t11
     show sayori smile1 du
-    "She taps her finger on the table as her legs dangle below it."
+    "Она постукивала пальцем по столу, а её ноги свисали с него."
     show sayori smile2 du
-    "Her smile looks so beautiful under the only light that illuminates this empty room."
-    mc "How do you know?"
-    "I gulp down some water, wiping my face with the napkin."
+    "Её улыбка выглядела такой красивой в едином свете, который освещает эту пустую комнату."
+    mc "Как ты это поняла?"
+    "Я выпиваю немного воды и вытираю рот салфеткой."
     show sayori curious1 du at f11
-    s "{size=-5}Emmmm, I don't know.{/size}"
+    s "{size=-5}Эм-м-м… я не знаю.{/size}"
     show sayori smile3 dd
-    s "{size=-5}It's just that… watching you eat, makes me feel better.{/size}"
-    s "{size=-5}Reminds me what pasta tastes like…{/size}"
+    s "{size=-5}Просто… смотря за тем, как ты ешь, я чувствую себя лучше.{/size}"
+    s "{size=-5}Вспоминаю, какова на вкус лапша…{/size}"
     show sayori sadsmile1 dd
-    s "{size=-5}I guess?{/size}"
+    s "{size=-5}Наверное?{/size}"
     show sayori smile2 dd
-    s "{size=-5}And the look on your face, tells me everything.{/size}"
+    s "{size=-5}И выражение твоего лица обо всём говорит.{/size}"
     show sayori smile2 dd at t11
-    mc "Ahaha…"
-    "She'll kill me if she knew this was just some random microwave food I picked up from some random convenient store."
+    mc "А-ха-ха…"
+    "Она меня убьёт, если узнает, что это всего лишь еда быстрого приготовления, что я купил в каком-то случайном магазине."
     show sayori surprise1 ud at dip_short
-    s "{size=-5}*ahem!*{w=1.0} Err….{/size}"
-    "Suddenly she coughs severely, I see her try to touch her throat."
-    mc "I'll drink some more."
-    "I think I'm crazy, but I guess grasping the straw is all I can do now."
-    "So I take down three glasses of water in one go."
+    s "{size=-5}*кхм!*{w=1.0} Гм-м….{/size}"
+    "Внезапно она сильно кашляет, я вижу, как она пытается дотронуться до горла."
+    mc "Я попью ещё."
+    "Думаю, я сошёл с ума, но схватиться за соломинку -- это всё, что я могу сейчас сделать."
+    "Потому я опрокинул три стакана за один присест."
     pause(1.5)
     show sayori smile1 dd at dip
-    "I notice that she's gulping, too. Her facial expression seems a lot easier now."
-    "I recall everything she has done after we meet, how do I know that this is actually working, or she's just pretending to not worry me?"
+    "Я замечаю, что она тоже сглотнула. Выражение её лица теперь, кажется, стало намного спокойнее."
+    "Я вспомнил всё, что она делала после нашей встречи. Откуда ж мне знать, действительно ли это работает, или она просто притворяется, чтобы не беспокоить меня?"
     show sayori smile2 dd
-    "I look at the slowly appearing smile on her face."
+    "Я взглянул на медленно появляющуюся улыбку на её лице."
     pause(2.0)
-    "I believe her."
-    mc "Any better?"
-    "I smile in bittersweet. "
-    mc "Just don't touch it, OK? It hasn't healed yet. "
+    "Я доверяю ей."
+    mc "Тебе лучше?"
+    "Я горьковато-сладко улыбнулся."
+    mc "Только не трогай, окей? Оно же ещё не зажило."
     show sayori reluc2 dd at s11
-    s "{size=-5}emmm…{/size}"
-    mc "Let me take a look."
-    "I walk over to examine her neck."
+    s "{size=-5}Э-э-э…{/size}"
+    mc "Дай взглянуть."
+    "Я подошёл посмотреть на её шею."
     show black with dissolve
-    "Ghost cyan mist cannot hide her pain. I know what their color are supposed to be."
-    "The texture of woven rope has been imprinted into her soft skin in cold blood, turning her inner flesh out."
-    "The valley that orbits her neck is not even scabbed yet, and the blood is still seeping out from it, drip by drip."
-    "The grain shivers with her every breath, and the fiber that hasn't left her neck yet, is like millions of sharp blades, stabbing into the bottom of my heart without remorse."
+    "Призрачный голубой туман не мог скрыть её боль. Я знал, каким должен быть её цвет."
+    "Текстура сплетённой веревки отпечаталась на её нежной коже, вывернув наружу внутреннюю плоть."
+    "Рана на её шее ещё даже не покрылась струпьями, кровь продолжала сочиться из неё, капля за каплей."
+    "Волосы дрожат при каждом её вдохе, а волокна, которые ещё не покинули её шею, подобно миллионам острых лезвий, без всякого сожаления вонзались в глубину моего сердца."
     hide black with dissolve
-    mc "I'm sorry……"
+    mc "Прости меня…"
     show sayori sadsmile4 dd at t11
-    s "It's okay, I said it…"
-    s "It wasn't your fault."
+    s "Я же говорю, всё в порядке…"
+    s "Это была не твоя вина."
     show sayori reluc6 dd
-    s "{cps=*0.35}{size=-5}It wasn't anyone's fault…{/size}{/cps}"
-    "She murmurs to herself. "
-    "I take her hands, watching them."
+    s "{cps=*0.35}{size=-5}Это была ни чья вина…{/size}{/cps}"
+    "Она пробормотала про себя."
+    "Я беру её руки, глядя на них."
     show sayori weep9 uu at f11
-    "Her fingertips are stained with blood, the nail of the index finger from her right hand has been ripped over."
-    "Some fiber that still sticks on her thumb, dried to a grilled brown along with the blood. "
+    "Кончики её пальцев испачканы кровью, ноготь на указательном пальце правой руки совсем ободран."
+    "Какие-то волокна, которые остались на её большом пальце, высохли до коричневого цвета вместе с кровью."
     show layer master:
         blur 0
         easeout 1 blur 10
-    "Other fingers' condition are probably worse, but I fail to remember more as my eyes water up again."
+    "Состояние других пальцев, вероятно, ещё хуже, но я не могу вспомнить больше, так как глаза снова заслезились."
     show layer master:
         blur 10
         easein 0.3 blur 0
-    mc "Are you tired?"
-    mc "I wipe away my tears."
+    mc "Ты устала?"
+    "Я вытер слёзы."
     show sayori reluc3 dd at t11
-    s "No."
-    "She shakes her head."
+    s "Нет."
+    "Она матнула головой."
     show sayori smile1 du
-    s "Let's take a walk outside, I want to take a look at where you live."
-    "That's when I realized that she's still wearing her thin pajamas and her feet are still bare."
+    s "Пойдём прогуляемся, хочу посмотреть, где ты теперь живёшь."
+    "Тогда-то я и понял, что на ней всё ещё та тонкая пижама, а ноги босые."
     queue ambient int_night volume 0.8
     stop music fadeout 6.0
-    mc "{cps=*3}That's out of the question!{/cps}"
-    mc "At least…"
-    "But she just chuckles."
+    mc "{cps=*3}Ну уж нет!{/cps}"
+    mc "По крайней мере…"
+    "Но она лишь посмеялась."
     show sayori smile2 du at laugh_cg_twice
     pause(0.5)
     show sayori laugh2 uu
-    s "What are you thinking? It's not like I can get any colder since I'm a spooky ghost!"
-    mc "Alright…"
-    mc "Just wait a bit."
-    mc "I'll go grab a coat."
+    s "О чём ты? Не думаю, что мне может стать ещё холоднее, я ведь жу-у-уткий призрак!"
+    mc "Верно…"
+    mc "Просто подожди маленько."
+    mc "Куртку возьму."
     scene bg bedroom_night with dissolve
     play sound closet volume 2.5
-    "I rush to the bedroom, open the wardrobe to take out my warmest jacket."
-    "Then, just as I was about to close it, I stopped."
+    "Я помчался в спальню, открыл шкаф и достал свою самую тёплую куртку."
+    "Затем, когда я уже собрался закрыть его, я остановился."
     stop sound fadeout 0.5
     play music shemeditates
-    "I grab a beanie."
-    mc "Just in case…"
-    mc "Now back to{nw}"
+    "Я взял шапку."
+    mc "На всякий случай…"
+    mc "Так, ну теперь{nw}"
     show sayori smile1 dd at face
-    mc "Ahh!!!!"
+    mc "А-а-а-а!"
     show sayori smile2 dd at t11
-    s "Hahahahah!!"
+    s "Ха-ха-ха-ха-а-а!"
     show sayori laugh1 uu at f11
-    s "That's {i}two{/i} scores for Sayori!!"
+    s "{i}Два-Ноль{/i} в пользу Сайори!"
     show sayori laugh1 uu at t11
-    mc "Really Sayori?"
+    mc "Да ну, правда?"
     show sayori smile2 dd at f11
-    s "Aw……you have to learn to watch your back~"
+    s "О-о-оу… надо учиться следить за собо-о-ой~"
     show sayori smile2 dd at t11
-    mc "You'll pay for this."
+    mc "Ну ты у меня за это заплатишь."
     show sayori mock7 dd at f22
-    s "Well, how about seeing how will you pay for this mess first?"
+    s "Ну, как насчёт того, чтобы сначала узнать, как именно заплатишь за это?"
     show sayori mock7 dd at t22
     show sayori mock7 dd at t33
     pause(0.5)
     show sayori mock7 dd at s33
-    "She then begins to check my room, hands behind her back."
+    "Затем она начинает осматривать мою комнату, заложив руки за спину."
     show sayori mock7 dd at t33
     pause(0.5)
     show sayori mock7 dd at t21
     pause(0.5)
-    s "Would you look at this?"
+    s "Не мог бы взглянуть на это?"
     show sayori mock7 dd at t11
     pause(0.5)
     show sayori mock7 dd at s11
     pause(0.5)
     show sayori curious2 ud
-    s "Gosh……"
+    s "Бо-о-оже…"
     show sayori surprise1 dd
-    s "What even is this?! …"
+    s "А это вообще что?!"
     show sayori curious1 dd at t11
-    mc "You know what you look like?"
-    mc "Guess next you're going to put my name on that list of yours, right?"
-    mc "{i}President Sayori?{/i}"
+    mc "Знаешь, на кого ты похожа?"
+    mc "Полагаю, в следующий раз ты внесёшь моё имя в свой список, верно?"
+    mc "{i}Президент Сайори?{/i}"
     show sayori mock9 dd at f11
-    s "You bet!"
+    s "Ещё бы!"
     stop music fadeout 2.0
-    "I follow her out of the room with the beanie in my hands."
+    "Я выхожу за ней из комнаты с шапкой в руках."
     scene bg doorway_night with dissolve
-    "Then I push the doorknob, once again, embrace the cold night."
-    "With Sayori behind my back."
+    "Затем я жму на дверную ручку и вновь погружаюсь в холодную ночь."
+    "С Сайори за спиной."
     stop ambient fadeout 1.0
     play sound closet_close
     scene bg street2_night with dissolve
     play ambient ext_night volume 0.8
     play music disturbance fadein 2.0 volume 1.2
     show sayori smile1 dd at t11
-    s "So…"
+    s "Так…"
     show sayori curious1 du at f11
-    s "Have we been here before?"
-    s "It doesn't seem so unfamiliar."
+    s "Мы уже были здесь раньше?"
+    s "Выглядит незнакомо."
     show sayori curious1 du at t11
-    mc "Yep, I didn't move that far."
-    mc "Remember that forest we used to hang out? It's not far from here since it's the suburb."
+    mc "Агась, так далеко я ещё не заходил."
+    mc "Помнишь тот лес, где мы обычно тусовались? Это недалеко отсюда, это ведь пригород."
     show sayori serious1 uu
-    s "Err, let me think…"
+    s "Э-э-э, дай мне подумать…"
     show sayori curious3 uu at h11
-    s "Ah!"
-    s "Is there a lake? Where we buried our time capsule by it?"
-    "I smile."
+    s "А-а!"
+    s "Здесь это озеро? Где мы закопали нашу капсулу времени?"
+    "Я улыбнулся."
     show sayori curious1 dd
-    mc "Yeah, beneath that biggest tree."
+    mc "Ага, под тем самым деревом."
     scene cg shadow with dissolve
     $ persistent.cg4 = True
-    "We walk past a lonely street lamp as my shadow gets stretched into the darkness beyond me."
-    mc "Can others see you?"
-    s "I'm not so sure… since I just woke up like hours ago, and haven't seen anyone else besides you."
-    mc "You just woke up?"
-    "I look at her in confusion. "
-    s "Yeah… "
-    s "I've had a long, long dream,"
-    s "like really long."
-    s "Dreamed about lots of stuff."
-    s "I remember hearing you talking with someone..."
-    s "and then..."
-    s "When I regain my eyesight, well, you were there, sitting in your bedroom, reading something, but I don't think you noticed me, so…"
-    mc "So that's how you get your first score."
-    s "Ehehe~"
+    "Мы прошли мимо одинокого уличного фонаря, и моя тень растянулась в темноте позади меня."
+    mc "А другие могут тебя видеть?"
+    s "Не уверена… с тех пор, как я проснулась несколько часов назад, не видела никого, кроме тебя."
+    mc "Ты только проснулась?"
+    "Я взглянул на неё с недоумением."
+    s "Да…"
+    s "Это был долгий, долгий сон,"
+    s "ну то есть, реально долгий."
+    s "Снилось много чего."
+    s "Я помню слышала, как ты разговаривал с кем-то…"
+    s "…а потом…"
+    s "Когда ко мне вернулось зрение, ты был там, сидел в своей спальне и что-то читал, но я не думаю, что ты заметил меня, так что…"
+    mc "Так вот как ты получила один-ноль."
+    s "Э-хе-хе~."
     scene bg street2_night with dissolve
-    "We continue to walk under the artificial light."
+    "Мы продолжили идти под искусственным освещением."
     "…"
     show sayori curious1 du at t11
     show sayori curious1 du at f11
-    s "What about the festival? What happened after… umm…"
+    s "А что насчёт фестиваля? Что произошло после… м-м…"
     show sayori reluc3 dd
     pause(0.7)
     show sayori curious1 dd
-    s "How's Natsuki and Yuri doing?"
+    s "Как там Нацуки и Юри?"
     show sayori curious1 dd at t11
-    "I guess I'll just tell her the truth."
-    mc "From what Monika told me, the atmosphere was a little...dim."
-    mc "The festival fell apart due to a lack of visitors. Didn't help that the ones were there, didn't really care for it."
-    mc "And then, of course...well, you know what happened."
+    "Похоже, пора ей узнать правду."
+    mc "Судя по тому, что рассказала мне Моника, атмосфера была немного… мрачноватой."
+    mc "Фестиваль сорвался из-за нехватки посетителей. Не помогло и то, что там были те, кого это не особо волновало."
+    mc "А потом, конечно… ну, ты знаешь, что произошло."
     show sayori reluc5 dd at s11
-    s "Monika………"
-    mc "What's wrong?"
+    s "Моника…"
+    mc "Что не так?"
     show sayori smile4 dd at t11
-    s "Em? Oh, it's nothing."
+    s "М-м? А, ничего."
     show sayori curious5 dd at f11
-    s "Don't worry about it. What happened to our club after the festival?"
+    s "Не волнуйся. А что случилось с клубом после фестиваля?"
     show sayori weep1 dd at t11
-    mc "Well, we disbanded because there weren't enough members, but I don't remember anything specific during that time, I just…"
+    mc "Ну, мы распались, так как у нас было недостаточно участников, но я не помню ничего конкретного за то время, я просто…"
     stop music fadeout 3.0
-    mc "don't remember…"
+    mc "Не помню…"
     show black at easein_to_alpha(0, 0.5, 0.15)
-    "I gulp."
-    "Now that I think of it, that period was like a glass covered with steam, only ambiguous pictures come into my eyes, the rest is nothing but a blur."
+    "Я сглотнул."
+    "Теперь, когда я думаю об этом, тот период был подобен стеклу, покрытому испариной. Только неясные картины всплывали у меня перед глазами, всё остальное было будто в тумане."
     show sayori weep9 dd
-    mc "I only attended a few days of school after…… you left."
+    mc "Я ходил в школу всего пару дней после того, как… тебя не стало."
     show black at easein_to_alpha(0.15, 0.5, 0.3)
-    mc "So many things to fix, so many people to inform. I didn't receive any {i}actual{/i} help since I literally got no friends."
+    mc "Так много всего надо исправить, так много людей надо проинформировать. Я не получал никакой {i}реальной{/i} помощи, у меня ведь буквально не было друзей."
     show black at easein_to_alpha(0.3, 0.5, 0.45)
-    mc "Hell, even reading those guidelines and filling endless forms were enough to make me a walking dead."
+    mc "Чёрт, да даже прочтения инструкций и заполнения бесконечных форм было достаточно, чтобы превратить меня в ходячего мертвеца."
     show black at easein_to_alpha(0.45, 0.5, 0.6)
     pause(1.0)
     show black:
         alpha 0.6
         easeout 0.5 alpha 0.15
-    "I stop to catch a breath."
+    "Я остановился, чтобы вдохнуть."
     play music chamberofreflection volume 0.6
-    mc "Your seat, your books……{w} your photo on the class wall…{w} too many… too many things to face.{w} I couldn't stay there anymore, so I transferred as fast as I could, just to get away…"
-    "……………"
-    "Sayori pauses."
-    show sayori weep2 dd
-    s "What about Natsuki? And Yuri?"
-    s "…………Monika?"
-    "A string of familiar names pierces my body, overpowering all my fights and resists.{w} I can't dodge, I can't hide, I can only let the rain of memory soaks me, from inside out."
-    mc "I'm sorry…"
-    show sayori weep8 dd
-    mc "I don't quite remember, I didn't see Natsuki and Yuri after the funeral… I suppose, I don't even remember their expression that day."
-    mc "Guess sometimes it's better to just leave a person alone."
-    show sayori weep9 dd
-    mc "As for Monika…"
+    mc "Твоя парта, твои книги…{w} и твоё фото на стене кабинета…{w} со многим… слишком многим приходится сталкиваться лицом к лицу."
+    mc "Я больше не мог там оставаться, а потому перевёлся так быстро, как только смог, просто чтобы уехать подальше…"
     "…"
-    "{cps=*0.8}A pair of emerald eyes suddenly emerges in my mind, an empty classroom.......{/cps}{nw}"
+    "Сайори задумалась."
+    show sayori weep2 dd
+    s "Что с Нацуки? С Юри?"
+    s "…Моника?"
+    "Череда знакомых имён пронзает мое тело, подавляя все мои попытки бороться и сопротивляться.{w} Я не могу увернуться, я не могу спрятаться, я могу только позволить потоку воспоминаний пропитать меня изнутри."
+    mc "Прости…"
+    show sayori weep8 dd
+    mc "Я не совсем помню, я не видел Нацуки и Юри после похорон… наверное, я даже не помню выражения их лиц в тот день."
+    mc "Думаю, иногда лучше просто оставить что-то личное."
+    show sayori weep9 dd
+    mc "А насчёт Моники…"
+    "…"
+    "{cps=*0.8}В моём воображении внезапно возникает пара изумрудных глаз, пустой класс…{/cps}{nw}"
     show vignette_black at vignetteflicker
-    "What was that?"
-    mc "She was…"
-    mc "She's…"
-    mc "Gosh, why is it so hard to remember?"
-    "I frown, as if some worms slide into my clothes, the discrepancy in the memory questions my brain unstoppably."
-    mc "I think… I've had met Monika after that… we talked, like a lot."
+    "Что за?"
+    mc "Это была…"
+    mc "Она…"
+    mc "Боже, почему так трудно вспомнить?"
+    "Я хмурюсь, как будто некие черви заползают ко мне под одежду. Несоответствие в воспоминаниях ставит мой мозг перед непреодолимым вопросом."
+    mc "Я думаю… я встретился с Моникой после этого… мы разговаривали, много о чём."
     show black at easein_to_alpha(0.15, 0.5, 0.3)
-    mc "But it feels like I wasn't there, that I wasn't a part of it."
+    mc "Но такое чувство, что меня там и не было, что я вовсе не был частью всего этого."
     show black at easein_to_alpha(0.3, 0.5, 0.45)
-    mc "And when I try to remember more of it, the memory just abruptly jumps to my new school part."
+    mc "И когда я пытаюсь вспомнить хоть что-нибудь ещё, память просто вдруг перескакивает на новую студенческую жизнь."
     show black at easein_to_alpha(0.45, 0.5, 0.6)
-    "It doesn't match, it doesn't make sense."
+    "Это даже не звучит правдиво, хрень какая-то."
     stop music fadeout 3.0
     hide vignette_black
     hide black with Dissolve(3.0)
-    s "[player]? Are you alright?"
-    "She reaches out to my hand."
+    s "[player]? Ты в порядке?"
+    "Она протянула мне руку."
     show sayori sadsmile6 ud
-    s "It must be a tough time for you, but it's OK to forget, maybe it is even a bliss to not remember all of it, right? ……"
+    s "Должно быть, для тебя это тяжёлое бремя, но забывать -- это нормально, быть может, это даже счастье -- не вспоминать всего этого, так?…"
     play music Around fadein 2.0
     show sayori smile5 uu at f11
-    s "Let's talk about your college!"
-    "Her tone is returning to herself."
+    s "Давай поговорим о твоём колледже!"
+    "К ней вернулся её прежний тон."
     show sayori smile5 uu at t11
-    mc "…Sure, where do you want me to begin with?"
+    mc "…конечно, с чего начнём?"
     show sayori smile2 uu at h11
-    s "Start with your new club president!!"
+    s "Начнём с твоего нового президента клуба!"
     show white:
         alpha 0
         easein 5.0 alpha 1.0
-    mc "Huh?! …That's ……"
-    "We walk and talk, from my roommates to our new library, from that twisted statue in the campus to the dust deserting their steel eaves."
-    "I mention to her that I am keeping a sunflower in my room, and that big fat cat can't even roll herself over thanks to the students' treat… and some weird fellow sitting behind the bushes, drawing the flow of life. "
-    "……And of course, my new club president. "
-    "There's still a literature club in my college, which is a good thing. "
-    "Although everyone seems to prefer talking about music and movies, I still keep the habit of writing poetry."
-    "I tell Sayori about the notebook I was reading earlier, I keep every one of her poems there, along with my mindless sentences and phrases,"
-    "from moist to dry, from dry to moist, all the way down until the end of the last page, until what's behind the back cover."
-    "Dozens?"
-    "Hundreds?"
-    "Maybe thousands? I can't quite remember, just as I can't remember how many hours in four years one month plus one day, nor how many seconds in thirty thousand seven hundred and eighty-four hours."
-    "Time never gives you a break, I was lingering in my comfort zone just a minute ago, then I got thrown away into a place where two parallel lines meet a minute after, chasing the glassy butterfly at the edge of my reality."
+    mc "А?! Это…"
+    "Мы гуляли и болтали, от моих соседей по комнате -- прямо до нашей новой библиотеки, от той искореженной статуи в кампусе -- прямо до пыли, покрывающей стальные карнизы."
+    "Я напомнил ей, что держу в своей комнате подсолнух, а та большая жирная кошка даже не может перевернуться из-за угощений студентов... и какой-то странный парень сидит за кустами и рисует поток жизни."
+    "…и, конечно, мой новый президент клуба."
+    "В моём колледже даже был литературный клуб, и это радует."
+    "Хотя все, кажется, предпочитали больше говорить о музыке и фильмах, я всё ещё сохранял привычку писать стихи."
+    "Я рассказываю Сайори о блокноте, который я читал ранее, в котором я храню все её стихотворения, вместе со своими бессмысленными фразами,"
+    "от влажного к сухому, от сухого к влажному, и так до конца последней страницы, до того, что находится за задней обложкой."
+    "Десятки?"
+    "Сотни?"
+    "Может даже тысячи? Я не могу вспомнить точно, как и не могу вспомнить ни сколько часов в четырёх годах, одном месяце и дне, ни сколько секунд в тридцати тысячах семистах восьмидесяти четырех часах."
+    "Время никогда не даст передохнуть, всего минуту назад я пребывал в комфорте…"
+    "…а уже через минуту меня выбросило туда, где сходятся две параллельные линии, и я погнался за стеклянной бабочкой на краю собственной реальности."
     scene white with Dissolve(3.0)
 
     return

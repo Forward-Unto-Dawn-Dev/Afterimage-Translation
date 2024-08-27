@@ -75,7 +75,7 @@ label start:
 
         try: renpy.file(config.basedir + "/1. 目击你刚刚完成这一跳.txt"),
 
-        except: open(config.basedir + "/1. 目击你刚刚完成这一跳.txt", "w").write(renpy.file("mod_assets/1. 目击你刚刚完成这一跳.txt").read()),
+        except: open(config.basedir + "/1. 目击你刚刚完成这一跳.txt", "w").write(renpy.file("mod_assets/1. 目击你刚刚完成这一跳.txt", encoding='utf-8').read()),
 
     $ chapter = 2
     call af2_main from _call_af2_main
@@ -84,7 +84,7 @@ label start:
 
         try: renpy.file(config.basedir + "/2. 如果是这样，你不要悲哀.txt"),
 
-        except: open(config.basedir + "/2. 如果是这样，你不要悲哀.txt", "w").write(renpy.file("mod_assets/2. 如果是这样，你不要悲哀.txt").read()),
+        except: open(config.basedir + "/2. 如果是这样，你不要悲哀.txt", "w").write(renpy.file("mod_assets/2. 如果是这样，你不要悲哀.txt", encoding='utf-8').read()),
 
     $ chapter = 3
     call af3_main from _call_af3_main
@@ -93,7 +93,7 @@ label start:
 
         try: renpy.file(config.basedir + "/3. 我爱你.txt"),
 
-        except: open(config.basedir + "/3. 我爱你.txt", "w").write(renpy.file("mod_assets/3. 我爱你.txt").read()),
+        except: open(config.basedir + "/3. 我爱你.txt", "w").write(renpy.file("mod_assets/3. 我爱你.txt", encoding='utf-8').read()),
 
     $ chapter = 4
     call af4_main from _call_af4_main
@@ -102,7 +102,7 @@ label start:
 
         try: renpy.file(config.basedir + "/4. 你一定听到了.txt"),
 
-        except: open(config.basedir + "/4. 你一定听到了.txt", "w").write(renpy.file("mod_assets/4. 你一定听到了.txt").read()),
+        except: open(config.basedir + "/4. 你一定听到了.txt", "w").write(renpy.file("mod_assets/4. 你一定听到了.txt", encoding='utf-8').read()),
 
     $ chapter = 5
     call af5_main from _call_af5_main
@@ -111,13 +111,13 @@ label start:
 
         try: renpy.file(config.basedir + "/5. 晚春.txt"),
 
-        except: open(config.basedir + "/5. 晚春.txt", "w").write(renpy.file("mod_assets/5. 晚春.txt").read()),
+        except: open(config.basedir + "/5. 晚春.txt", "w").write(renpy.file("mod_assets/5. 晚春.txt", encoding='utf-8').read()),
 
     python:
 
         try: renpy.file(config.basedir + "/characters/%s.chr" % player),
 
-        except: open(config.basedir + "/characters/{}.chr".format(player), "w").write(renpy.file("mod_assets/player2.chr").read()),
+        except: open(config.basedir + "/characters/{}.chr".format(player), "w").write(renpy.file("mod_assets/player2.chr", encoding='utf-8').read()),
 
     if persistent.demo:
         stop music fadeout 2.0

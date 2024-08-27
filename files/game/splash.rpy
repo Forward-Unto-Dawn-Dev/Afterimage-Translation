@@ -315,7 +315,7 @@ label splashscreen:
         pause 1.0
 
 
-        "[config.name] - это мод на Doki Doki Literature Club, не связанный с Team Salvato."
+        "[config.name] -- это мод на Doki Doki Literature Club, не связанный с Team Salvato."
         "Он предназначен для игры только после прохождения оригинальной игры и содержит спойлеры к ней."
 
         menu:

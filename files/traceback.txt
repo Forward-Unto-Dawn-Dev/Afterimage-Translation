@@ -1,26 +1,26 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 61, in script
+  File "game/script.rpy", line 74, in script
     python:
-  File "game/script.rpy", line 65, in <module>
-    except: open(config.basedir + "/characters/{}.chr".format(player), "w").write(renpy.file("mod_assets/player1.chr").read()),
+  File "game/script.rpy", line 78, in <module>
+    except: open(config.basedir + "/1. 目击你刚刚完成这一跳.txt", "w").write(renpy.file("mod_assets/1. 目击你刚刚完成这一跳.txt").read()),
 TypeError: write() argument must be str, not bytes
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 61, in script
+  File "game/script.rpy", line 74, in script
     python:
   File "D:\ren8.0.3\renpy-8.0.3-sdk\renpy\ast.py", line 1131, in execute
     renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
   File "D:\ren8.0.3\renpy-8.0.3-sdk\renpy\python.py", line 1061, in py_exec_bytecode
     exec(bytecode, globals, locals)
-  File "game/script.rpy", line 65, in <module>
-    except: open(config.basedir + "/characters/{}.chr".format(player), "w").write(renpy.file("mod_assets/player1.chr").read()),
+  File "game/script.rpy", line 78, in <module>
+    except: open(config.basedir + "/1. 目击你刚刚完成这一跳.txt", "w").write(renpy.file("mod_assets/1. 目击你刚刚完成这一跳.txt").read()),
 TypeError: write() argument must be str, not bytes
 
 Windows-10-10.0.19045 AMD64
 Ren'Py 8.0.3.22090809
 Доки Доки Послеобраз 1.0.0
-Tue Aug 27 18:43:44 2024
+Wed Aug 28 02:13:57 2024
