@@ -4,7 +4,8 @@
 
 
 
-
+init:
+    define config.atl_start_on_show = False
 
 define white = "images/effects/white.jpg"
 

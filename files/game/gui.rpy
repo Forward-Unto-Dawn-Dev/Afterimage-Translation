@@ -62,7 +62,7 @@ define -2 gui.name_font = "gui/font/Ramona.ttf"
 define -2 gui.interface_font = "gui/font/Aquawax_Fx.ttf"
 
 define -2 gui.text_size = 21
-define -2 gui.default_font_line_sapcing = 20
+define -2 gui.default_font_line_sapcing = 18
 
 
 define -2 gui.name_text_size = 22
@@ -126,7 +126,7 @@ define gui.namebox_tile = False
 
 
 define gui.text_xpos = 268
-define gui.text_ypos = 62
+define gui.text_ypos = 58
 
 
 define gui.text_width = 744

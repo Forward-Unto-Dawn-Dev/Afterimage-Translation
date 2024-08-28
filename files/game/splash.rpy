@@ -15,6 +15,11 @@ image menu_logo:
     zoom 0.60
     menu_logo_move
 
+image letter:
+    "mod_assets/letter.png"
+    zoom 0.7
+    align (0.5,0.5)
+
 
 
 
@@ -448,7 +453,9 @@ label splashscreen:
 
 
 
-
+    show letter with Dissolve(1.0)
+    $ pause(1.0)
+    hide letter with Dissolve(1.0)
     show splash_warning "[splash_message]" with Dissolve(1.0)
     $ pause(2.0)
     hide splash_warning with Dissolve(3.0)

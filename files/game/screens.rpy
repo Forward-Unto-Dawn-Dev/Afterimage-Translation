@@ -453,7 +453,7 @@ init -501 screen navigation():
                 if persistent.playthrough == 1:
                     textbutton _("ŔŗñĮ¼»ŧþŀÂŻŕěōì«") action If(persistent.playername, true=Start(), false=Show(screen="name_input", message="Введите имя героя:", ok_action=Function(FinishEnterName)))
                 else:
-                    textbutton _("Новая Игра") action If(persistent.playername, true=Start(), false=Show(screen="name_input", message="Введите имя героя:", ok_action=Function(FinishEnterName)))
+                    textbutton _("Новая игра") action If(persistent.playername, true=Start(), false=Show(screen="name_input", message="Введите имя героя:", ok_action=Function(FinishEnterName)))
 
             else:
 
