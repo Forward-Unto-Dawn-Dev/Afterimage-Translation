@@ -1,0 +1,7 @@
+*.rpyb
+*.rpyc
+/files/game/saves
+*.rpymc
+files/log.txt
+/files/game/cache
+/files/*.txt

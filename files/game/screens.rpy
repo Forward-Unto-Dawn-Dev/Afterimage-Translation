@@ -1557,7 +1557,7 @@ init -501 screen skip_indicator():
         has hbox
         spacing 6
 
-        text _("Skipping")
+        text _("Пропускаем...")
 
         text "▸" at delayed_blink(0.0, 1.0) style "skip_triangle"
         text "▸" at delayed_blink(0.2, 1.0) style "skip_triangle"
