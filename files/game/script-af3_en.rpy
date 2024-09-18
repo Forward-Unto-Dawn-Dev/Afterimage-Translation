@@ -7,98 +7,98 @@ label af3_main:
         act3, Dissolve(3.0),
         True])
 
-    "We camped in the wild, our tent was covered by the wet air of midnight, moths wandered around our camp light as some rustle came out near the lake."
-    "We heard animals telling their night tales as wings rushing through the woods."
-    "Our body laid back at the entrance of the tent, feeling the uneven ground from under the camping mat."
-    "Dirt and shovel composed a symphony, fluffy earth blocks rolled over to the strong roots aside."
-    "The diameter of the pit increased, I leaned the warm steel handle against the trunk, erasing my breathless sweat."
-    "Besides me, there was Sayori, holding the aged aluminum box with her everlasting smile, which was wrapped with tapes over and over irregularly."
-    "\"I want to take another look~~\""
-    "\"No! They said that it can't be opened once it is sealed!\""
-    "\"Then tell me what you wrote.\""
-    "\"Nope.\""
-    "\"Meanie! Just a little bit.\""
-    "\"Please?\""
-    "\"You can see for yourself after ten years.\""
-    "\"Tennnnn Yeeeears??? That's so long! Can I check it tomorrow?"
-    "\"Next week?\""
-    "\"Next month!\""
-    "……………………"
+    "Мы разбили лагерь в лесу, наша палатка была окутана влажным полуночным воздухом. Мотыльки всё бродили вокруг нашего лагерного фонаря, как у озера послышался какой-то шорох."
+    "Мы слышали, как лесные обитатели рассказывали свои ночные сказки, словно на крыльях проносясь по лесу."
+    "Наше тело лежало навзничь у входа в палатку, ощущая неровную землю под походным ковриком." # ?????
+    "Грязь и лопата составляли симфонию, пушистые земляные глыбы откатывались к крепким корням в сторону." # ?????
+    "Диаметр ямы увеличился, я прислонил тёплую стальную ручку к стволу, вытирая запыхавшийся пот." # ?????
+    "Рядом со мной была Сайори, которая с неизменной улыбкой держала в руках старую алюминиевую коробку, неравномерно обмотанную лентами."
+    "\"Я хочу взглянуть ещё разок~\""
+    "\"Нет! Сказано было, что нельзя открывать, пока она запечатана!\""
+    "\"Тогда скажи, что ты написал.\""
+    "\"Не-а.\""
+    "\"Вредина! Ну самую малость.\""
+    "\"Прошу?\""
+    "\"Сама увидишь, лет так через десять.\""
+    "\"Де-е-есять? Так до-о-олго! А можно завтра посмотрю?"
+    "\"Ну или на следующей неделе?\""
+    "\"Ну хоть на следующем месяце!\""
+    "…"
     stop music fadeout 2.0
     play ambient int_night fadein(1.0) volume 1.6
-    "Clanging sounds appeared in the pit, then turned soft and dull, until this short symphony ended beneath the texture of the shoes."
+    "В яме послышались лязгающие звуки, а затем они стали мягкими и глухими, пока эта короткая симфония совсем не оборвалась под текстурой обуви."
     scene bg bedroom_night2
     play sound ding1
-    "My laptop screen illuminates as there's a message showing at the corner which says I've got a new email."
-    "Are you [player]? What are you talking about?"
-    "It's Natsuki."
-    "I finally decided to send a riddle-like letter to every possible address, telling them that a girl with short coral hair invites me to join the literature club, she's the vice president."
-    "Looks like luck is on my side."
-    "I reply to Natsuki to brief the situation, and ask her to contact me on social media to make further conversation. "
-    "Striking down the enter, I hold my chin while watching the words on the screen that have already been sent to the other side of the server."
-    "{cps=*0.2}I wonder when she will recei…{/cps}{nw}"
+    "Экран моего ноутбука загорается. В углу выскочило сообщение о том, что пришло новое письмо."
+    "Ты [player]? О чём ты?"
+    "Это Нацуки."
+    "В конце концов я решил просто разослать по всевозможным адресам письма-загадки, в которых сообщал, что девушка с короткими коралловыми волосами приглашает меня вступить в литературный клуб, где она является вице-президентом."
+    "Похоже, удача на моей стороне."
+    "Я ответил Нацуки, чтобы вкратце рассказать о ситуации, и прошу её связаться со мной в социальных сетях для дальнейшего разговора."
+    "Нажав Enter, я взялся за подбородок, наблюдая за словами на экране, которые уже были отправлены на ту сторону сервера."
+    "{cps=*0.2}Вот думаю, когда ж она отве…{/cps}{nw}"
     play sound ding1
-    "Her reply letter comes in almost immediately, looks like she's right in front of her computer."
-    "I go to check the profile link she gives me on social media."
-    call phone ("Natsuki", natsuki_messages, 2, 10, hide_phone=False) from _call_phone_3
+    "Её ответ пришёл почти что сразу, будто она сидела прямо перед компьютером."
+    "Я пошёл проверять ссылку на профиль, которую она мне дает в социальных сетях."
+    call phone ("Нацуки", natsuki_messages, 2, 10, hide_phone=False) from _call_phone_3
 
     "..."
     show white onlayer front:
         alpha 0.0
         0.5
         linear 20.0 alpha 1.00
-    call phone ("Natsuki", natsuki_messages, 12, 9) from _call_phone_4
+    call phone ("Нацуки", natsuki_messages, 12, 9) from _call_phone_4
 
     "..."
     hide white onlayer front with Dissolve(5.0)
-    "We chat from nothing to everything."
-    "From our seven-days friendship in the subtropics to her college up above the 800-millimeter precipitation boundary."
-    "From her same kept literary habit to her new cupcake flavors."
-    "Even though the time we spent together will never outweigh the time we didn't, those days have been increased to a incomparable length inside our own memories. "
+    "Мы болтаем обо всём."
+    "От нашей семидневной дружбы в субтропиках до её колледжа выше границы осадков в 800 миллиметров." # ?????
+    "От её прежних литературных привычек до новых вкусов кексов."
+    "Несмотря на то, что время, проведённое нами вместе, никогда не перевесит время, проведенное порознь, эти дни стали несравнимо длиннее в наших собственных воспоминаниях."
     queue ambient int_night volume 1.0
 
-    call phone ("Natsuki", natsuki_messages, 300, 5, hide_phone=False) from _call_phone_5
+    call phone ("Нацуки", natsuki_messages, 300, 5, hide_phone=False) from _call_phone_5
 
-    "I swallow."
+    "Я сглотнул."
 
-    call phone ("Natsuki", natsuki_messages, 305, 23, hide_phone=False) from _call_phone_6
+    call phone ("Нацуки", natsuki_messages, 305, 23, hide_phone=False) from _call_phone_6
 
     "..."
     play music abyss fadein(2.0)
 
-    call phone ("Natsuki", natsuki_messages, 328, 36, hide_phone=False) from _call_phone_7
+    call phone ("Нацуки", natsuki_messages, 328, 36, hide_phone=False) from _call_phone_7
 
     "..."
 
-    call phone ("Natsuki", natsuki_messages, 364, 11, hide_phone=False) from _call_phone_8
+    call phone ("Нацуки", natsuki_messages, 364, 11, hide_phone=False) from _call_phone_8
 
     pause 1.0
 
-    call phone ("Natsuki", natsuki_messages, 376, 31, hide_phone=False) from _call_phone_9
+    call phone ("Нацуки", natsuki_messages, 376, 31, hide_phone=False) from _call_phone_9
 
     "......"
     "..."
 
-    call phone ("Natsuki", natsuki_messages, 407, 8, hide_phone=False) from _call_phone_10
+    call phone ("Нацуки", natsuki_messages, 407, 8, hide_phone=False) from _call_phone_10
 
-    "I then turn to Sayori, and take a picture instantly. "
+    "Затем я повернулся к Сайори и тут же сделал фотку."
     play sound camera
 
-    call phone ("Natsuki", natsuki_messages, 415, 16, hide_phone=False) from _call_phone_11
+    call phone ("Нацуки", natsuki_messages, 415, 16, hide_phone=False) from _call_phone_11
     pause 2.0
 
-    call phone ("Natsuki", natsuki_messages, 431, 1, hide_phone=False) from _call_phone_12
+    call phone ("Нацуки", natsuki_messages, 431, 1, hide_phone=False) from _call_phone_12
 
     stop music fadeout(4.0)
     pause 1.0
 
-    call phone ("Natsuki", natsuki_messages, 432, 83, hide_phone=False) from _call_phone_13
+    call phone ("Нацуки", natsuki_messages, 432, 83, hide_phone=False) from _call_phone_13
 
     "..."
 
-    call phone ("Natsuki", natsuki_messages, 515, 3) from _call_phone_14
+    call phone ("Нацуки", natsuki_messages, 515, 3) from _call_phone_14
 
-    "I turned off my cellphone, taking a deep breath, I turned to Sayori."
+    "Я выключил телефон, сделал глубокий вдох и повернулся к Сайори."
     "She really is a heavy sleeper, even without her snoring."
     "I don't feel like waking her up at the moment. So I just take out my phone again to check the time."
     "4:44 am, is it this late already? I didn't know we had such a long chat… and she's not talking about sleeping either."
