@@ -64,6 +64,7 @@ label af3_main:
     call phone ("Нацуки", natsuki_messages, 305, 23, hide_phone=False) from _call_phone_6
 
     "..."
+
     play music abyss fadein(2.0)
 
     call phone ("Нацуки", natsuki_messages, 328, 36, hide_phone=False) from _call_phone_7
@@ -76,12 +77,12 @@ label af3_main:
 
     call phone ("Нацуки", natsuki_messages, 376, 31, hide_phone=False) from _call_phone_9
 
-    "......"
     "..."
 
     call phone ("Нацуки", natsuki_messages, 407, 8, hide_phone=False) from _call_phone_10
 
     "Затем я повернулся к Сайори и тут же сделал фотку."
+
     play sound camera
 
     call phone ("Нацуки", natsuki_messages, 415, 16, hide_phone=False) from _call_phone_11
@@ -99,20 +100,20 @@ label af3_main:
     call phone ("Нацуки", natsuki_messages, 515, 3) from _call_phone_14
 
     "Я выключил телефон, сделал глубокий вдох и повернулся к Сайори."
-    "She really is a heavy sleeper, even without her snoring."
-    "I don't feel like waking her up at the moment. So I just take out my phone again to check the time."
-    "4:44 am, is it this late already? I didn't know we had such a long chat… and she's not talking about sleeping either."
-    "Huh, guess we all are night owls."
-    "Just then I feel the hunger inside my stomach. Thinking of it, I haven't eaten anything since noon."
-    "I didn't turn my lights on as well, there are only some gloomy street lights from outside."
+    "Она действительно крепко спала, даже не храпя."
+    "Мне сейчас не хотелось её будить. Поэтому я просто опять достал телефон, чтобы проверить время."
+    "4:44, уже так поздно? Не думал, что мы так долго переписывались… да и она не говорила о сне."
+    "Хм, похоже, мы оба совы."
+    "И тут я почувствовал голод. Если подумать, я ничего не ел с полудня."
+    "Я и свет не включил, снаружи видны только тусклые уличные фонари." # ?????
     scene bg kitchen1_day with dissolve
     play sound fridge
-    "I make my way to the kitchen, take out some bread we bought this morning."
-    "What should I eat?"
-    "I decide to have some of the cookies and animal-shaped buns instead of the cakes, they seem more durable."
-    "Holding a glass of hot milk, I return to the bedroom with the steaming food in my hand."
+    "Я пошёл на кухню и достал хлеб, который мы купили сегодня утром."
+    "Что же мне съесть?"
+    "Я решил вместо тортов съесть немного печенья и булочек в форме животных, они кажутся более долговечными." # ?????
+    "Держа стакан горячего молока, я вернулся в спальню с тёплой едой в руке."
     show black with dissolve
-    "I gently open the half-closed door with my feet."
+    "Я медленно открыл полузакрытую дверь ногой."
     scene bg bedroom_night with dissolve
     play music Around fadein 1.0
     stop ambient fadeout 2.0
@@ -121,8 +122,8 @@ label af3_main:
     show sayori sleepy2 dd
     pause(0.75)
     show sayori sleepy1 dd
-    mc "Morning, sleepyhead."
-    "I place the food on the desk."
+    mc "Утра, соня."
+    "Я положил еду на стол."
     show sayori sleepy4 ud
     pause(0.5)
     show sayori sleepy3 ud
@@ -130,111 +131,111 @@ label af3_main:
     show sayori sleepy2 ud
     pause(0.5)
     show sayori sleepy1 dd
-    s "Awmmmm…… "
-    "Noticing she's not completely awake, I turn to take a bite on the cookie."
-    "The taste though, is not that good after the freezing."
-    "I should have more back at the shop."
-    mc "There's good news."
+    s "М-м-м-м…"
+    "Заметив, что она ещё не до конца проснулась, я повернулся, дабы откусить кусочек печенья."
+    "Однако после холодильника вкус уже не тот."
+    "Надо было купить побольше."
+    mc "Хорошие новости."
     show sayori sleepy1 ud
-    s "Huh………"
+    s "А-а…"
     show sayori sleepy5 dd
-    s "What is it? ……"
-    mc "I've found Nat."
+    s "Какие?…"
+    mc "Нацуки нашлась."
     show sayori curious3 uu at h33
-    s "Really??!!!"
-    "Suddenly her drowsiness vanishes from her face, and the cheerful smile returns to her eyebrows, as if none of the previous breakdown had anything to do with her."
-    "I wish I could keep that smile forever."
-    mc "Yeah, I chatted with her a little bit."
-    mc "She's attending college in the north now."
+    s "Да ну?!"
+    "Внезапно её сонливость вдруг исчезает, а на бровях вновь появляется весёлая улыбка, как будто все предыдущие срывы не имеют к ней никакого отношения."
+    "Хотелось бы сохранить эту улыбку навеки."
+    mc "Да, я немного с ней поболтал."
+    mc "Сейчас она учится в колледже в стороне севера."
     show sayori at t31
-    s "Let me talk to her!!!"
-    mc "Woow, not so fast. "
-    mc "It's ten in the morning, she's got courses to attend."
+    s "Дай мне поговорить с ней!"
+    mc "Воу, не так быстро."
+    mc "Сейчас десять утра, у неё пары."
     show sayori angry1 dd
-    s "Then why didn't you wake me?"
-    mc "Well, maybe it's because you were sleeping like a dea…"
-    mc "Like a heavy sleeper."
-    mc "You'll probably still be doing it if I hadn't had breakfast."
+    s "Тогда почему ты меня не разбудил?"
+    mc "Ну может потому что ты спишь как…"
+    mc "Как богатырь."
+    mc "Ты б, наверное, и продолжила, если бы я завтрак не принёс."
     show sayori angry4 dd
-    s "Meanie!"
+    s "Дурак!"
     show sayori serious1 dd
-    mc "Alright, alright, my bad. But there's something else that you'll definitely be interested in."
-    "I keep saying along with her curious look."
-    mc "Yuri is in the exact same college as Natsuki."
+    mc "Ладно, ладно, виноват. Но есть ещё кое-что, что тебя точно заинтересует."
+    "Я продолжаю говорить под её любопытный взгляд."
+    mc "Юри учится в том же колледже, где и она."
     show sayori laugh3 uu
-    s "Wow!!! That's so nice! How's their relationship?"
-    mc "Welp, you know Natsuki…"
-    mc "But I think it isn't as bad as she put it."
+    s "Вау! Круто! И как у них отношения?"
+    mc "Ну, ты ж знаешь Нацуки…"
+    mc "Но я думаю, что не всё так плохо, как она говорит."
     show sayori smile5 du
-    s "Thought so, hahah."
-    mc "I told her about your…… situation. She will contact Yuri this weekend, and we'll meet up sometime once we figure out where Monika is."
+    s "Так я и думала, ха-ха."
+    mc "Я рассказал ей о твоей… ситуации. Она поговорит с Юри на выходных, и мы как-нибудь встретимся, когда выясним, где Моника."
     show sayori reluc2 dd at s31
     s "…"
-    s "Monika………"
+    s "Моника…"
     show sayori reluc7 dd
-    mc "Yeah, we're going to confront her. Don't you want to know what the truth is?"
-    "I glance at my backpack."
+    mc "Да, мы собираемся встретиться с ней лицом к лицу. Разве ты не хочешь узнать правду?"
+    "Я глянул на свой рюкзак."
     show sayori worried3 dd at t31
-    s "Alright……"
+    s "Ладно…"
     show sayori reluc10 dd
-    s "But where do we start? It's been so long."
+    s "Но с чего мы начнём? Столько времени прошло."
     show sayori worried3 dd
-    mc "We can start with our high school. In fact, weren't we just about to visit there?"
-    "I stand up to tidy my uniform."
+    mc "Начнём с нашей школы. Мы разве не собирались туда заглянуть?"
+    "Я встал, чтобы привести в порядок форму."
     show sayori worried2 dd at s31
-    s "Sure, but…"
-    mc "What is it?"
+    s "Да, но…"
+    mc "Что но?"
     show sayori reluc11 dd at sink_more(240)
-    s "I don't know………"
+    s "Не знаю…"
     stop music fadeout 4.0
-    mc "Just don't think about it too much for now……"
-    mc "It won't hurt to just take a walk around the school."
+    mc "Просто не думай много об этом…"
+    mc "Не помешает просто прогуляться по школе."
     show sayori reluc10 dd
-    s "I guess…"
+    s "Наверное…"
     play ambient schoolcrowd2 fadein 2.0 volume 0.3
     scene bg street2_day with dissolve
-    "We stand in the cold early morning breeze."
+    "Мы стояли под холодным утренним ветром."
     show crowd3 with dissolve
-    "A bus slowly stops before the board. I could see crowded people through the bleary window."
+    "Автобус медленно остановился перед тротуаром. Сквозь запотевшее окно я видел толпы людей."
     play sound bus_brake fadeout 1.0 volume 2.0
-    "The decompression valve lets out a rough breath before the hydraulic mechanism brings the door open with a loud clang."
-    "People waiting at the bus stop all crowd to the entrance, making the commute even more dense."
-    "I hesitate."
+    "Клапан транспорта издал неровный вздох, после чего гидравлический механизм с громким лязгом открыл дверь."
+    "Люди, ожидающие автобуса на остановке, толпятся у входа, делая поездку ещё более плотной."
+    "Я замешкался."
     show sayori curious1 dd at t11
-    mc "How about we take the taxi."
+    mc "Думаю мы можем взять такси."
     show sayori curious6 dd
-    s "Why though?"
-    mc "Errrr… because it's faster? I don't want to see the school gate shut when we arrive."
+    s "А чего так?"
+    mc "Э-э… так быстрее? Не хочу приехать к уже закрытым воротам."
     show sayori serious1 du
-    s "Huh……"
-    "Without her further question, I pull out my phone to call the cab."
+    s "Эм…"
+    "Без лишних вопросов я достал телефон, дабы вызвать такси."
     hide crowd3 with dissolve
     scene black with dissolve
-    "Before long, a white car approaches, driving us to the direction of old days."
+    "Вскоре подъехал белый автомобиль, который увёз нас прямо в направлении былых времён."
     play sound cab loop fadein 1.0
     stop ambient fadeout 1.0
-    "All the street lights are cut off synchronously, buildings at our sides are also disappearing as they rapidly get pushed backwards, into the grayish blue sky."
-    "We are entering the urban area, our pace slows, and the surroundings are becoming more and more familiar."
-    "At last, the driver leaves us at the school gate that I will never forget."
+    "Все уличные фонари синхронно отключились, здания по бокам от нас исчезли в том числе, стремительно уносясь назад, в серо-голубое небо."
+    "Мы въехали в город, темп замедлился, а окружающая обстановка стала всё более знакомой."
+    "Наконец, водитель оставляет нас у ворот школы, что я никогда не забуду."
     stop sound fadeout 2.0
     scene bg schoolgate_day with dissolve
     play ambient schoolcrowd1 fadein 1.0 volume 0.3
     show crowd4 with dissolve
-    "We're not late, the first bell hasn't rung yet, students are crowding across the gate, which is very convenient for us."
+    "Мы не опоздали, первый звонок ещё не прозвенел, студенты толпятся у ворот, что для нас сейчас очень удобно."
     show sayori mock3 du at t11
-    s "Don't you get caught~~"
-    mc "That's impossible. "
-    mc "Not if you report to the guard."
+    s "Смотри, чтоб не поймали!~"
+    mc "Да это нереально."
+    mc "Нет, разве что если охране доложишь."
     show sayori mock4 du
-    s "Huh! That depends!"
-    "I then take out my student's ID from back in high school, waving it before her."
+    s "Ха! Зависит от обстоятельств!"
+    "Затем я достаю свой школьный билет и машу им перед ней."
     show sayori smile2 dd at focus
     show sayori at focus(640, 0.85, 50)
-    s "Ehehe, you look so stupid in this image."
-    mc "Who are you to judge me?"
+    s "Э-хе-хе, ты выглядишь таким глупым на этой фотке."
+    mc "Кто ты такая, чтоб меня судить?"
     show sayori angry4 dd at t11
-    s "Meanie!"
-    "Then we walk through the gate, seemingly not drawing any attention. "
+    s "Дурашка!"
+    "Затем мы проходим через ворота, казалось бы, не привлекая к себе никакого внимания."
     hide crowd4 with dissolve
     pause(0.1)
     hide sayori with dissolve
@@ -242,256 +243,255 @@ label af3_main:
     scene bg campus_day with dissolve
     pause(0.2)
     show sayori curious2 ud at t11 with dissolve
-    s "I can't believe we're actually inside!"
+    s "Поверить не могу, что мы действительно внутри!"
     show sayori at t21
     pause(0.5)
     show sayori at t33
-    "She runs around under the school building."
-    s "Everything don't seem to have changed that much."
+    "Она бегает под зданием школы."
+    s "Кажись, всё не так уж и сильно изменилось."
     show sayori at t11
-    mc "It's also my first time."
+    mc "К тому же это мой первый раз." # ?????
     scene bg stair1_day with dissolve
     play ambient int_day volume 1.2 fadein 1.0
-    "I step to the entrance of the stairs, looking at those students who are walking in a hurry."
+    "Я подхожу ко входу на лестничную площадку, глядя на спешащих студентов."
     show sayori curious1 dd at t11
-    s "What now? Are you going to attend the classes?"
-    mc "I don't think that's realistic, given this is not college."
-    mc "Let's just go straight to the club office."
+    s "Что теперь? Будешь на уроках сидеть?"
+    mc "Я не думаю, что это возможно, учитывая, что это не колледж."
+    mc "Давай-ка просто пойдём к офису клубов."
     show sayori sadsmile1 du
-    s "Awwww… it's Mr. Dan, right?"
-    s "But what if he doesn't work here anymore?"
+    s "О-оу… к мистеру Дэну, да?"
+    s "Но что, если он здесь больше не работает?"
     show sayori curious1 du
-    mc "Keep your fingers crossed."
+    mc "Не каркай."
     scene bg corridor_day with dissolve
-    "Standing before the familiar office door, unceasing nervous crawls over me."
-    "I take a deep breath, then knock on the door."
+    "Стоя перед дверью знакомого кабинета, я испытываю непрекращающуюся нервозность."
+    "Я делаю глубокий вдох, и затем стучу в дверь."
     play sound doornock volume 0.7
     show sayori sadsmile1 dd at t11
-    s "A bit nervous?"
-    mc "Of course."
+    s "Нервничаешь?"
+    mc "А то."
     show sayori curious5 du
-    s "Monika must be feeling the same way when she came here to apply for setting up the club."
+    s "Моника, должно быть, чувствовала то же самое, когда пришла сюда подавать заявление на открытие клуба."
     show sayori reluc2 dd
-    mc "Don't mention her."
+    mc "Не упоминай её."
     hide sayori with dissolve
-    "I squeeze my thumb and index finger on my right hand."
+    "Я сжимаю большой и указательный пальцы на правой руке."
     play sound closet_open
     show dan dcurious1 at t11
-    d "Who are…"
+    d "Кто…"
     play music t3
     show sayori laugh2 uu t43
     show dan dcurious2
     show sayori laugh2 uu at h33
-    s "Mr. Dan!!!"
-    mc "Good afternoon, Mr. Dan."
+    s "Мистер Дэн!"
+    mc "Доброго вечера, мистер Дэн."
     show sayori laugh2 at easein_to_alpha(1.0, 3.0, 0.4)
-    "I look at his mustache, it seems like compared to us, the {i}real{/i} adult doesn't change that much."
+    "Я смотрю на его усы, и кажется, что по сравнению с нами, {i}по-настоящему{/i} взрослый человек со временем не так уж и сильно меняется."
     show dan dsmile1
-    d "Oh hello! It's you, welcome! Haven't seen you guys for a long time! What brings you here?"
+    d "О, привет! Это ты, здрасьте! Давненько ж я тебя не видал! Что ж тебя сюда привело?"
     show dan dsmile2
     show sayori smile5:
         alpha 0.4
-    mc "Yep, Sa… I happened to have a spare day, so I thought I could come and pay a visit."
-    d "Come in and have a seat."
+    mc "Ага, ну… у меня случайно выдался свободный день, и я подумал, что мог бы навестить вас."
+    d "Ну же, присаживайся."
     hide dan
     show sayori at lhide(.50)
     hide sayori
     pause 1.0
     scene bg office1_dusk with dissolve
-    "There are photos of all kinds of club activities hanging on the wall, the atmosphere is very lively."
-    "Some well decorated frames are placed on his desk, and some elegant handwritten posters are sticking on the wall across it, along with various plushies and models."
-    "I sit next to his desk, I've noticed that there is a rather less decorated frame out there. It seems to have less people in it compared to other lively photos."
+    "На стене висят фотографии всевозможных клубных мероприятий, атмосфера очень оживленная."
+    "На его столе стоят несколько хорошо оформленных рамок, а на стене напротив развешаны несколько элегантных постеров, написанных от руки, вместе с различными плюшевыми игрушками и моделями."
+    "Я сижу рядом с его столом и замечаю, что там стоит гораздо менее оформленная рамка. Кажется, что на ней меньше людей по сравнению с другими прекрасными фотографиями."
     show sayori curious3 dd at r41:
         alpha 0.4
     pause(0.5)
     show sayori smile5 uu at h41:
         alpha 0.4
-    s "These must be photos taken from clubs! …"
-    mc "Hey……"
-    "I try to stop her as she goes straight through Mr. Dan's body."
+    s "Это, наверное, фотографии, сделанные в клубах!…"
+    mc "Эй…"
+    "Я пытаюсь остановить её, когда она проходит прямо сквозь тело мистера Дэна."
     show dan dsmile2 at t11
-    "Well, he doesn't seem to notice."
-    "I'll just leave her to it."
+    "А он, походу, вообще этого не заметил."
+    "Просто оставлю её в покое."
     show sayori tongue1 at t42:
         alpha 0.4
-    s "Ehehe~ Seems like you can't talk with me right now, you have to work hard on it~ "
-    "She starts to make faces before me."
-    "Sayori oh Sayori…"
+    s "Э-хе-хе~ Кажись, ты не можешь говорить со мной прямо сейчас, тебе стоит хорошенько над этим поработать~"
+    "Она начинает корчить передо мной рожи."
+    "Сайори, ох, Сайори…"
     show sayori smile3 dd at t44:
         alpha 0.4
     pause(0.5)
     show sayori smile3 dd at s44:
         alpha 0.4
     show dan dsmile1
-    d "Hahahah, I can see that you didn't change that much."
+    d "Ха-ха-ха, я вижу, что ты не так уж сильно изменился."
     show dan dcurious3
     show sayori smile3 dd at t44:
         alpha 0.4
-    d "And… It's always nice to have you back, no matter under what kinds of premises."
+    d "И… всегда приятно, когда ты возвращаешься, независимо от того, в каких условиях."
     show sayori serious3 ud at t44:
         alpha 0.4
     pause 0.5
     show sayori at lhide(t=.85)
     hide sayori
     pause 1.0
-    mc "Yeah… life in college is kinda busy, it's a shame that I didn't come back to visit the school in the past few years."
-
+    mc "Ага… жизнь в колледже довольно насыщенная, жаль, что я не навещал школу последние несколько лет."
     show dan dsmile2
-    d "Yes, you need to remember that life comes first. It is hard and cruel, but don't forget that we'll always be here to support you."
+    d "Да, вам нужно помнить, что жизнь превыше всего. Это тяжело и жестоко, но не забывай, что мы всегда будем рядом, чтобы тебя поддержать."
     show dan dcurious3
-    d "Well, maybe in an insignificant way, but we'll try our best."
+    d "Ну, может, в незначительной степени, но будем стараться изо всех сил."
     show dan dsmile2
-    d "Anyway… How's your life going?"
-    mc "I'll say it's getting better."
-    d "Emmm………"
-    d "Good, I was right about you not being held back."
-    d "Have you made some new friends?"
-    mc "Of… of course!"
+    d "И всё же… как дела?"
+    mc "Могу сказать лишь что становится лучше."
+    d "М-м…"
+    d "Хорошо, я был прав насчёт того, что тебя ничто не сдерживает."
+    d "Нашёл новых друзей?"
+    mc "К… конечно!"
     show dan dserious1
     d "…"
-    d "While sitting and talking with me…"
-    d "Do you regret to have come this far?"
-    "…?"
+    d "Сидя и разговаривая со мной…"
+    d "Не жалеешь, что зашёл так далеко?"
+    "?…"
     show dan dsmile1 at laugh_cg_twice
-    d "Hahah."
+    d "Ха-ха."
     show dan dsmile2
-    d "Don't push yourself too hard. If the story's end denies all your anticipation, I wish you could have the courage to start it over."
-    mc "Huh…"
-    "I have no idea…"
+    d "Не переусердствуй. Если конец истории опровергает все твои ожидания, я бы хотел, чтобы у вас хватило смелости начать всё сначала."
+    mc "А-а…"
+    "Ничё не понимаю…"
     show dan dserious1
-    d "Do you think that too much persistence puts you in the dead end?"
-    mc "Err…?"
-    "I'm a little confused."
-    d "All of this is prepared for you. I believe you will have your own understandings."
-    d "Once it's all settled,"
-    d "I wish you can learn more than what others have expected you to learn, don't let your reality shatter in vain."
+    d "Считаешь ли, что чрезмерная настойчивость тебя в тупик заводит?"
+    mc "Э-э?…"
+    "Я обескуражен."
+    d "Всё это подготовлено для тебя. Я верю, что у тебя будет своё собственное понимание."
+    d "Как только всё уладится,"
+    d "я желаю, чтобы ты узнал больше, чем ожидали от вас другие, не позволяй своей реальности разрушаться понапрасну."
     "..."
     show dan dsmile1 at h11
-    d "Hahahah, don't rush it though, I'm sure you've still got half of the time to figure it out."
-    "He spins his pen in his hand, there was a piece of paper on his desk…"
-    "I can't tell what's on it though…"
-    mc "{size=-5}Puff.....................{/size}"
-    "Sayori has finally broken my defense, every nerve of mine is trying to bring my muscle to laugh."
-    "I'm trying my best to not laugh in front of Mr. Dan, because it seems like he is having a serious conversation with me right now."
+    d "Ха-ха-ха-ха, не торопись, уверен, у тебя ещё есть время, чтобы во всём разобраться."
+    "Он крутит в руке ручку, на его столе лежит лист бумаги…"
+    "Хотя не могу разобрать, что на нём написано…"
+    mc "{size=-5}Фуф-ф...{/size}"
+    "Сайори наконец-то сломила мою защиту, каждый мой нерв пытается заставить меня смеяться."
+    "Я изо всех сил стараюсь не рассмеяться в присутствии мистера Дэна, потому что кажется, что у него со мной сейчас серьезный разговор."
     show dan dserious1 at f11
-    d "You should know, we hardly see the real sadness among most of the tragedies. "
+    d "Ты должен понимать, что в большинстве трагедий мы почти не видим истинной печали."
     "…"
     show dan dsmile2 at t11
-    d "Okay, That's all I got to say to you."
-    d "And [player], I don't think you guys come to visit the school just for one reason, right?"
-    mc "…! Y…Yeah!"
-    mc "I'm here for Monika"
+    d "Ладно, это всё, что я хотел сказать."
+    d "И да, [player], не думаю, что вы приехали сюда только по одной причине, так?"
+    mc "!… Д…да!"
+    mc "Мне нужна Моника."
     show dan dcurious3
-    d "If I remember it correctly, she was your club president? "
-    mc "Yep."
+    d "Если я правильно помню, она была президентом вашего клуба?"
+    mc "Ага."
     show dan dsmile3
-    d "Ahh… I could never forget her, she's smart, athletic, always willing to help others, like a bundle of sunshine, the literature club would be missing half of its soul without her."
-    d "Are you looking for her?"
-    mc "Yeah, I've got some questions to ask her."
-    d "Emmm......"
-    d "I think she did mention to me about which college she was admitted to."
-    d "Because she had an excellent score on her graduation exam."
-    d "...It's been a long time though."
-    d "Let me think..."
-    "He opens up the computer, searching for the information. "
+    d "О-о… никогда не забуду её, умная, спортивная, всегда всем готовая помочь, как пучок солнечного света, литературный клуб лишился бы половины своей души без неё."
+    d "Ищешь её?"
+    mc "Да, есть к ней пару вопросов."
+    d "Эм-м…"
+    d "Кажется, она упоминала мне о том, в какой колледж её зачислили."
+    d "Она ведь получила высокую оценку на выпускном экзамене."
+    d "…столько времени прошло."
+    d "Дай-ка подумать…"
+    "Он открывает компьютер и ищет информацию."
     pause 1.0
     show dan dsmile2 at t43
-    d "I remember it. I'll send the college's name to you email."
-    mc "I appreciate it."
-    d "Other than that, I don't quite know."
-    d "You could ask around the college."
-    d "Just say hello to her for me will you?"
-    mc "No problem."
+    d "Да, вспомнил. Я пришлю название колледжа тебе на почту."
+    mc "Я вам очень благодарен."
+    d "Кроме этого, я ничего не знаю."
+    d "Можешь спросить там, в колледже."
+    d "Просто передай ей привет от меня, хорошо?"
+    mc "Без проблем."
     show sayori reluc2 dd at leftin(300, 0.80, .70):
         alpha 0.4
-    "Sayori is looking at something on the table without making a sound."
+    "Сайори смотрит на что-то на столе, не произнося ни звука."
     show dan dsmile1
     show sayori smile1 dd
-    d "You can sit here as long as you like, make yourself at home."
+    d "Можешь сидеть здесь сколько угодно, чувствуй себя как дома."
     show dan dcurious3
-    d "The clubs are about to start though, I must go check on them."
-    "He picks up the paper on the desk."
-    mc "Okay! See you around Mr. Dan!"
+    d "Но клубы вот-вот начнутся, я должен пойти проверить их."
+    "Он поднимает бумагу на столе."
+    mc "Окей! Увидимся, мистер Дэн!"
     show dan at rhide
     hide dan
-    "I watch him exit the office with a file in his hands while receiving the email he has just sent to me."
+    "Я смотрю, как он выходит из кабинета с папкой в руках, получая письмо, которое он только что отправил мне."
     show sayori laugh2 ud at f20:
         alpha 0.4
-    s "See you Mr. Dan!!!"
+    s "Увидимся, мистер Дэн!"
     scene cg leave with dissolve
     $ persistent.cg7 = True
     hide sayori
-    "He turns around and smiles."
-    d "Take care of {i}yourself{/i}."
+    "Она повернулась и улыбнулась."
+    d "Береги {i}себя{/i}."
     play sound closet_close
     scene bg office1_dusk
     pause(0.1)
     show sayori smile1 ud at f11
-    s "[player], look at this, this is our club…"
-    "She whispers by my ear"
-    "I sit on Mr. Dan's seat, and check that picture."
+    s "[player], взгляни, наш клуб…"
+    "Она шепчет мне на ухо."
+    "Я сажусь на место мистера Дэна и смотрю на фото."
     hide sayori with dissolve
-    "Four familiar people come into my view."
-    "Sayori is waving at the camera, "
-    "Monika is clutching a paper and a pen against her chest while Yuri's holding a giant book, looking timidly towards the camera."
-    "As for Natsuki, well, she's holding her arms like a tough guy."
-    s "We took this picture not long after we set up the whole club, you were probably still sitting in your house watching anime back then, hehe."
-    mc "That's good, how about I take a picture of it as a souvenir. "
-    s "Sure!"
-    "So I pull out my phone, and record a moment that had been already recorded."
+    "Мне на глаза попадают четыре знакомых человека."
+    "Сайори машет рукой в камеру,"
+    "Моника прижимает к груди бумагу и ручку, а Юрий держит в руках огромную книгу и робко смотрит в сторону камеры."
+    "Что касается Нацуки, то она держит руки, как крутой парень."
+    s "Мы сделали эту фотографию вскоре после того, как организовали клуб, а ты, наверное, тогда ещё дома сидел, аниме смотрел, хе-хе."
+    mc "Хорошо, давай сфотографирую её на память."
+    s "Конечно!"
+    "Я достал телефон и сфоткал то, что и так было сфоткано."
     play sound camera
     pause(1.0)
     "Then, we wander around Mr. Dan's office for another while, looking through the pictures of the clubs these years."
     stop music fadeout(5.0)
-    "Debate club, anime club, robot club……"
+    "Дискуссионный клуб, клуб аниме, клуб робототехники…"
     pause(2.0)
     show sayori smile1 dd at t11
-    mc "Let's go."
+    mc "Пошли."
     show sayori curious1 du at f11
-    s "Where to?"
+    s "Куда?"
     show sayori curious1 du at t11
-    "I open up the archive Mr. Dan just sent to me, it should point out where did Monika go after the graduation. "
-    "My heart shakes."
+    "Я открыл архив, который мне только что прислал мистер Дэн. В нём указано, куда Моника отправилась после окончания школы."
+    "Моё сердце сжалось."
     show sayori reluc3 dd at s11
-    mc "{cps=*0.3}She's still in our city.{/cps}"
+    mc "{cps=*0.3}Она всё ещё в нашем городе.{/cps}"
     show sayori sadsmile1 dd at t11
-    s "That's kinda…… convenient?"
-    mc "Yep, how about we go visit her right now?"
+    s "Как-то… удобно?"
+    mc "Ага, как насчёт навестить её?"
     show sayori curious6 ud at f11
-    s "What about Yuri and Natsuki? Aren't you supposed to wait for them?"
-    mc "Err…… you have a point."
-    "I scratch my head"
+    s "А как же Юри и Нацуки? Разве ты не хочешь их подождать?"
+    mc "Эх-х… ты права."
+    "Я почесал голову."
     show sayori smile2 dd
-    s "Anyway, how about we go grab a meal, it's close to dinner time."
-    mc "Anything on your mind?"
+    s "Ну всё же, как насчёт того, чтобы пойти поесть? Уже почти обед."
+    mc "И какие идеи?"
     show sayori serious1 uu
-    s "I don't—————————————"
+    s "Я не…"
     show sayori laugh3 uu
-    s "think you have any better ideas than mine!!"
+    s "…думаю, что у тебя есть идеи лучше моих!"
     show sayori smile2 dd
-    "She gives me a warm smile."
+    "Она тепло улыбается."
     show sayori laugh4 at laugh_cg
-    "Hahahahah…"
-    "We both laugh."
+    "Ха-ха-ха…"
+    "Мы вместе смеёмся."
     hide sayori
     scene bg corridor_day with dissolve
     play sound closet_close
     play music daisuke fadein(4.0)
-    "Stepping out of the office, the freezing air of early morning embraces me, that's when I noticed that the air conditioner has been opened up back inside."
-    "Which is reasonable, given that it is late winter now."
+    "Выйдя из офиса, я ощутил морозный воздух раннего утра, и только тогда заметил, что кондиционер открыли ещё внутри."
+    "Что вполне разумно, учитывая, что сейчас конец зимы."
     show sayori smile3 dd at t11
-    s "It must be snowing in Natsuki's place…"
+    s "У Нацуки, наверное, идет снег…"
     show sayori curious3 uu at f11
     pause(0.9)
     show sayori smile5 uu
-    s "How I wish I could have a snow fight with her! There must be a loooot of snow in the north."
-    "Considering it is still class time, and the club meetings haven't begun yet, Sayori and I can't revisit our old club room."
-    "And it would be suspicious for a student like me to wander around the campus during class time."
+    s "Как бы я хотела устроить с ней снежный бой! На севере, наверное, очень много снега." # ?????
+    "Учитывая, что время занятий ещё не пришло, и собрания клуба ещё не начались, мы с Сайори не можем зайти в наш старый кабинет клуба."
+    "И было бы подозрительно, если бы такой студент, как я, бродил по кампусу во время занятий."
     scene bg stair1_day with dissolve
-    "So we decided to leave the school first."
-    mc "How about we just head back and finish what we bought yesterday? "
+    "Поэтому мы решили сначала выйти из школы."
+    mc "Как насчет того, чтобы вернуться и доесть то, что мы купили вчера?"
     show sayori angry3 dd at t11
-    s "Awwww… come on…"
+    s "О-о-о… да ну…"
     pause(0.5)
     show sayori angry4 dd
     pause(0.7)
@@ -499,14 +499,14 @@ label af3_main:
     pause(0.9)
     show sayori angry4 dd
     pause(0.2)
-    mc "You are killing my wallet! I'm not someone who can edit the number on the credit card at will!"
+    mc "Ты просто опустошаешь мой кошелёк! Я деньги на своей карте не печатаю!"
     show sayori worried3 ud at t45
     pause(0.2)
     show sayori worried3 ud at focus(500, 0.85)
-    s "Come on [player]… I happen to know a decent restaurant just near your district…"
-    "Here comes her classic scheme, which is hard for me to resist."
+    s "Да давай, [player]… я знаю один приличный ресторан недалеко от района..."
+    "А вот и её классическая схема, перед которой мне трудно устоять."
     scene bg campus_night with dissolve
-    "But I won't give in to it!"
+    "Но я так просто не дамся!"
     show sayori surprise1 dd at t45
     mc "Out of the question! You're not going to go to any ‘decent restaurant' of yours until you finish the ones {i}you{/i} picked up from that bakery!"
     show sayori angry5 dd at s45
