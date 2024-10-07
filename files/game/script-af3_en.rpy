@@ -441,7 +441,7 @@ label af3_main:
     "Я достал телефон и сфоткал то, что и так было сфоткано."
     play sound camera
     pause(1.0)
-    "Then, we wander around Mr. Dan's office for another while, looking through the pictures of the clubs these years."
+    "Ещё некоторое время мы пробыли в кабинете мистера Дена, разглядывая фотографии клубов тех лет."
     stop music fadeout(5.0)
     "Дискуссионный клуб, клуб аниме, клуб робототехники…"
     pause(2.0)
@@ -508,20 +508,20 @@ label af3_main:
     scene bg campus_night with dissolve
     "Но я так просто не дамся!"
     show sayori surprise1 dd at t45
-    mc "Out of the question! You're not going to go to any ‘decent restaurant' of yours until you finish the ones {i}you{/i} picked up from that bakery!"
+    mc "Нет уж! Ни в какой «приличный ресторан» ты не пойдёшь пока {i}ты{/i} не сьёшь то, что взяла в пекарне!"
     show sayori angry5 dd at s45
-    s "Humph! It's not like {i}I am the one who's going to eat them! {/i}"
-    mc "You almost sound like Natsuki."
+    s "Гм! {i}Не то чтобы я собиралась это есть! {/i}"
+    mc "Ты напоминаешь Нацуки."
     scene bg schoolgate_day with dissolve
-    "I giggle."
+    "Я хихикаю."
     show sayori curious6 dd at t45
-    mc "How about this."
+    mc "Как насчёт этого?"
     stop music fadeout(5.0)
-    mc "We head back for lunch first, and I'll take you there for dinner."
+    mc "Сначала мы вернёмся на обед, а потом уже приступим к ужину."
     show sayori angry12 at sink_more(500)
-    s "Uwwww.."
+    s "Ух-х-х.."
     scene white with Dissolve(2.0)
-    "The taxi reaches us as we talk, without her making further complaints, I open up the door and let myself in."
+    "Пока мы говорили, наше такси подъехало. Не продолжая нашу дискуссию, я открыл дверь и уселся в машину."
 
     return
 # Decompiled by unrpyc: https://github.com/CensoredUsername/unrpyc
